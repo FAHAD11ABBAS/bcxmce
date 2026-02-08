@@ -4,6 +4,10 @@ This is a **WordPress** project managed using **LocalWP**.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/FAHAD11ABBAS/bcxmce)
 
+## 🌐 Project Landing Page (صفحة المشروع)
+**[https://fahad11abbas.github.io/bcxmce/](https://fahad11abbas.github.io/bcxmce/)**
+*(ستعمل هذه الصفحة بعد تفعيل GitHub Pages من الإعدادات)*
+
 ## ☁️ Run on GitHub (بدون تحميل)
 **يمكنك تشغيل المشروع وتصفحه مباشرة من GitHub باستخدام زر "Open in GitHub Codespaces" أعلاه.**
 عند الضغط عليه، سيقوم GitHub بإنشاء بيئة افتراضية وتشغيل WordPress لك في المتصفح.
