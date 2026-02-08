@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Waitlist Expiry'=>['urls'=>['/wp-admin/admin-ajax.php?em_lang=fi&lang=fi'],'names'=>[],'cmp'=>['wpml-string-translation',1]],'Waitlist Position'=>['urls'=>['/wp-admin/admin-ajax.php?em_lang=fi&lang=fi'],'names'=>[],'cmp'=>['wpml-string-translation',1]],'Please log in so we can verify your previous bookings.'=>['urls'=>['/tapahtumat/','/historia/'],'names'=>[],'cmp'=>['wpml-string-translation',1]]]];

@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['https://wordpress.org/plugins/wordpress-importer/'=>['saveStringInDb'=>true,'cmp'=>['plugin metadata',1],'names'=>[],'urls'=>[['kind'=>9,'url'=>'/wp-admin/admin.php?page=wsal-auditlog']]],'https://wordpress.org/'=>['saveStringInDb'=>true,'cmp'=>['plugin metadata',1],'names'=>[],'urls'=>[['kind'=>9,'url'=>'/wp-admin/admin.php?page=wsal-auditlog']]],'0.9.5'=>['saveStringInDb'=>true,'cmp'=>['plugin metadata',1],'names'=>[],'urls'=>[['kind'=>9,'url'=>'/wp-admin/admin.php?page=wsal-auditlog']]]]];

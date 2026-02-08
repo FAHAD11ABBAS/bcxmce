@@ -1,0 +1,20 @@
+{
+  "name": "bcxmce-project",
+  "version": "1.0.0",
+  "description": "BCxMCE WordPress project with auto browser opening",
+  "main": "open-browser.js",
+  "scripts": {
+    "start": "node open-browser.js",
+    "open": "node open-browser.js"
+  },
+  "keywords": [
+    "wordpress",
+    "localwp",
+    "auto-open"
+  ],
+  "author": "Project Developer",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^11.0.0"
+  }
+}

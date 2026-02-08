@@ -1,0 +1,62 @@
+{
+    "meiryo": {
+        "normal": "Meiryo",
+        "bold": "Meiryo",
+        "italic": "Meiryo",
+        "bold_italic": "Meiryo"
+    },
+    "dejavusans": {
+        "normal": "DejaVuSans",
+        "bold": "DejaVuSans-Bold",
+        "italic": "DejaVuSans-Oblique",
+        "bold_italic": "DejaVuSans-BoldOblique"
+    },
+    "sawarabigothic": {
+        "normal": "SawarabiGothic-Regular",
+        "bold": "SawarabiGothic-Regular",
+        "italic": "SawarabiGothic-Regular",
+        "bold_italic": "SawarabiGothic-Regular"
+    },
+    "zcoolxiaowei": {
+        "normal": "ZCOOLXiaoWei-Regular",
+        "bold": "ZCOOLXiaoWei-Regular",
+        "italic": "ZCOOLXiaoWei-Regular",
+        "bold_italic": "ZCOOLXiaoWei-Regular"
+    },
+    "notosansjp": {
+        "normal": "NotoSansJP-Regular",
+        "bold": "NotoSansJP-Bold",
+        "italic": "NotoSansJP-Regular",
+        "bold_italic": "NotoSansJP-Regular"
+    },
+    "notosanstc-black": {
+        "normal": "NotoSansTC-Black",
+        "bold": "NotoSansTC-Black",
+        "italic": "NotoSansTC-Black",
+        "bold_italic": "NotoSansTC-Black"
+    },
+    "notosanstc": {
+        "normal": "NotoSansTC-Regular",
+        "bold": "NotoSansTC-Bold",
+        "italic": "NotoSansTC-Regular",
+        "bold_italic": "NotoSansTC-Regular"
+    },
+    "notosanstc-light": {
+        "normal": "NotoSansTC-Light",
+        "bold": "NotoSansTC-Light",
+        "italic": "NotoSansTC-Light",
+        "bold_italic": "NotoSansTC-Light"
+    },
+    "notosanstc-medium": {
+        "normal": "NotoSansTC-Medium",
+        "bold": "NotoSansTC-Medium",
+        "italic": "NotoSansTC-Medium",
+        "bold_italic": "NotoSansTC-Medium"
+    },
+    "notosanstc-thin": {
+        "normal": "NotoSansTC-Thin",
+        "bold": "NotoSansTC-Thin",
+        "italic": "NotoSansTC-Thin",
+        "bold_italic": "NotoSansTC-Thin"
+    }
+}

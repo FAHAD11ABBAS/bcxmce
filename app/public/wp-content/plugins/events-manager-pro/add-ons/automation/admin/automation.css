@@ -1,0 +1,59 @@
+.em-automation-form .automation-notice {
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin: 5px 0 15px;
+  padding: 1px 12px;
+}
+.em-automation-form .automation-notice.error {
+  border-left-color: #d63638;
+}
+.em-automation-form .automation-notice.info {
+  border-left-color: #72aee6;
+}
+.em-automation-form .automation-notice.warning {
+  border-left-color: #dba617;
+}
+.em-automation-form .automation-notice.success {
+  border-left-color: #00a32a;
+}
+.em-automation-form .automation-notice.has-action {
+  display: grid;
+  grid-template-columns: auto max-content;
+  align-items: center;
+}
+.em-automation-form .postbox > h3 {
+  display: inline-block;
+}
+.em-automation-form .postbox > span {
+  font-style: italic;
+  color: #777;
+}
+.em-automation-form .postbox > input[type=checkbox] {
+  float: right;
+  margin: 12px 15px;
+}
+.em-automation-form h3.between {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #c8c8c8;
+  line-height: 0.1em;
+  margin: 30px 0 30px;
+  text-transform: uppercase;
+}
+.em-automation-form h3.between span {
+  background: #f0f0f1;
+  padding: 0 20px;
+}
+.em-automation-form .trigger-output-contexts, .em-automation-form .trigger-output-context, .em-automation-form .trigger-context-desc span {
+  display: none;
+}
+.em-automation-form .trigger-context .em-automation-context-multi {
+  margin-top: 30px;
+}
+.em-automation-form .trigger-context .em-automation-context-multi label {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=automation.css.map */

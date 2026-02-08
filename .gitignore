@@ -1,0 +1,5 @@
+node_modules/
+logs/
+.DS_Store
+*.log
+app/public/wp-config.php

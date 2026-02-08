@@ -1,0 +1,53 @@
+.em-coupon-code-fields {
+  margin-bottom: 15px;
+}
+
+.em .em-coupon-code-fields div.input-wrap.em-coupon-code-wrap {
+  margin-bottom: 0 !important;
+}
+
+input.em-coupon-code.loading {
+  background: var(--icon-spinner) calc(100% - 10px) 50% no-repeat !important;
+  background-size: 22px !important;
+}
+input.em-coupon-code[readonly] {
+  display: none;
+  visibility: hidden;
+}
+
+.em-coupon-message {
+  display: inline-block;
+  margin: 0;
+}
+
+.em-coupon-error {
+  color: red;
+}
+.em-coupon-error .em-icon {
+  background-color: red;
+  -webkit-mask-image: var(--icon-cross-circle);
+  mask-image: var(--icon-cross-circle);
+}
+
+.em-coupon-success {
+  color: green;
+  margin: 7px 5px;
+}
+.em-coupon-success .em-icon {
+  background-color: green;
+  -webkit-mask-image: var(--icon-checkmark-circle);
+  mask-image: var(--icon-checkmark-circle);
+}
+
+.em-bookings-form-coupon .em-coupon-code-fields {
+  display: grid;
+  grid-template-columns: auto max-content;
+  grid-auto-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.em.em-event-booking-form .em-booking-form-section-confirm .em-booking-form-section-coupons {
+  padding-bottom: 0;
+}
+
+/*# sourceMappingURL=coupons.css.map */

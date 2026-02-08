@@ -1,0 +1,149 @@
+@page { margin: 10px 0; }
+body { margin: 10px 0; }
+
+#content {
+	margin: auto;
+	width: 760px;
+	padding: 0;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: DejaVu Sans, Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+table {
+	width : 100%;
+	line-height: inherit;
+	text-align: left;
+
+	td {
+		padding: 5px;
+		vertical-align: top;
+	}
+
+	td:last-child {
+		text-align: right;
+	}
+
+	tr:last-child td {
+		border-bottom: none;
+		padding-bottom: 15px;
+	}
+
+	td.mid {
+		text-align: center;
+	}
+
+	tr.line td{
+		font-weight: bold;
+		border-top: 4px solid #eee;
+	}
+
+
+	tr.line td:first-child, tr.subheader td:first-child {
+		border-top: 0;
+		border-bottom: 0;
+	}
+
+	tr.heading td {
+		background: #eee;
+		border-bottom: 1px solid #ddd;
+		font-weight: bold;
+		padding: 7px;
+		&:last-child {
+			text-align: right;
+		}
+		&:first-child {
+			text-align: left;
+		}
+	}
+
+	tr.details td {
+		padding-bottom: 20px;
+	}
+
+	tr.subheader td{
+		font-weight: bold;
+		border-bottom : 2px solid #eee;
+		border-top : 4px solid #eee;
+		padding: 10px 5px;
+	}
+
+	.subtotals td:nth-child(2), .total td:nth-child(2) {
+		text-align : right;
+		padding-right: 10px;
+	}
+}
+
+.header {
+	table.top {
+		td {
+			padding-bottom: 20px;
+		}
+
+		.logo {
+			font-size: 35px;
+			line-height: 35px;
+			color: #333;
+		}
+
+		.title {
+			font-size:22px;
+			padding:0;
+			margin : 10px 0 10px;
+			color: #333;
+		}
+	}
+
+	table.information {
+		margin-bottom: 20px;
+	}
+}
+
+table.event-info {
+	table td {
+		padding-bottom:5px;
+	}
+
+	td, td:last-child {
+		text-align:left;
+	}
+	td.qr {
+		text-align:right;
+		padding-top: 20px;
+	}
+	.multiple-booking-events table:nth-child(n + 2) {
+		border-top: 1px solid #ddd;
+		padding-top: 10px;
+		margin-top : 10px;
+	}
+}
+
+table.items {
+	tr td:last-child {
+		width: 110px;
+	}
+
+	tr.item td {
+		border-bottom: 1px solid #eee;
+	}
+}
+
+/** RTL **/
+.invoice-box.rtl {
+	direction: rtl;
+	font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.invoice-box.rtl table {
+	text-align: right;
+}
+
+.invoice-box.rtl table tr td:last-child {
+	text-align: left;
+}
+
+/** Utils **/
+div.page-break {
+	page-break-before: always;
+}

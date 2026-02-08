@@ -1,0 +1,738 @@
+/*
+Theme name: McExec
+Theme author: JAKK
+*/
+
+@font-face {
+  font-family: "EB_Garamond";
+  src: url("fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/static/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+
+:root {
+  --dark-green: #1f2518; /* text dark bg, button hover */
+  --green: #000000; /* header, footer */
+  --light-green: #2C2C2C; /* body background */
+  --beige: #e7e6da; /* content background */
+  --yellow: #e2c275; /* button bg */
+  --font-primary: "EB_Garamond", serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+/* :root {
+  --dark-green: #1f2518; 
+  --green: #5a6142; 
+  --light-green: #a4ac86; 
+  --beige: #e7e6da; 
+  --yellow: #e2c275; 
+  --font-primary: "EB_Garamond", serif;
+  --font-secondary: "Montserrat", sans-serif;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-green);
+}
+
+#middle-logo {
+  height: 150px;
+}
+
+h1 :not(#sivun-otsikko) {
+  font-family: var(--font-primary);
+  color: var(--dark-green);
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--dark-green);
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--dark-green);
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem;
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--dark-green);
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+}
+
+p {
+  font-family: var(--font-secondary);
+  color: var(--dark-green);
+  font-size: 1rem;
+  padding: 0.25rem 2rem;
+  line-height: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 119, 0);
+}
+
+
+
+main :not(#navi) > li {
+  padding: 0.25rem;
+}
+
+.article:not(:last-child) {
+  border-bottom: 1px solid var(--dark-green);
+  padding-bottom: 0.5rem;
+}
+
+#header {
+  position: relative;
+  font-family: var(--font-primary);
+  line-height: normal;
+  background-color: var(--green);
+  text-align: center;
+  height: 11rem;
+  border-radius: 0 0 5rem 5rem;
+  box-shadow: #474747 0.1rem 0.3rem 20px;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9rem;
+}
+
+#logo img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#sivun-otsikko {
+  color: var(--beige);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 3.25rem 0 2.1rem 0;
+  margin: 0;
+  font-family: var(--font-primary);
+}
+
+#navi {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#navi ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.85rem;
+  justify-content: center;
+  gap: .5rem;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-paavalikko {
+  display: flex;
+}
+
+.ajankohtaiset-header {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* buttons */
+#navi a,
+.historia-filter__link,
+.wp-block-button__link.wp-element-button {
+  text-decoration: none;
+  background-color: var(--yellow);
+  color: var(--dark-green);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 0.9rem;
+  height: fit-content;
+  padding: .7rem;
+  width: 9rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.1rem 0.3rem 10px#494b40;
+  margin-bottom: 0.25rem;
+}
+
+#navi a:hover,
+.historia-filter__link:hover {
+  background-color: #2B2B2B;
+  color: var(--yellow);
+}
+
+.historia-filter__link {
+  width: auto;
+  padding: 0.3rem 0.6rem;
+}
+
+.menu-menu-container {
+  margin-top: 0.7rem;
+}
+
+#navi li {
+  position: relative; 
+}
+
+#navi ul.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: -10px;
+  min-width: 150px; 
+  z-index: 99;
+  padding: 10px;
+}
+
+#navi li:hover > ul.sub-menu {
+  top: 35px;
+  display: block;
+}
+
+#navi ul.sub-menu::before {
+  content: "";
+  position: absolute;
+  left: -100px;
+  width: 200%;
+  height: 200px;
+  background: transparent;
+}
+
+#navi ul.sub-menu::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 15px; 
+  background: transparent;
+} 
+
+#content {
+  background-color: var(--beige);
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: var(--font-secondary);
+  color: #1f2518;
+  border-radius: 1rem;
+}
+
+#footer {
+  background-color: var(--green);
+  color: var(--beige);
+}
+
+#footer .content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 6rem;
+}
+
+#footer a {
+  color: rgb(226, 194, 117);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  #footer .content{
+    flex-direction: column;
+  }
+}
+
+#footer a:hover {
+  color: #a4ac86; /* Light green hover */
+}
+
+.article-divider {
+  border-bottom: 1px solid #2C2C2C;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.front-page-article-date {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.front-page-title {
+  text-align: center;
+  margin-top: 0;
+}
+
+.front-page-content ol {
+  padding-left: 5rem;
+  padding-right: 2.5rem;
+}
+
+
+/* Mobile menu */
+
+/* https://codepen.io/bogazci/pen/poxpxvJ?editors=1100 */
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button-container {
+  position: absolute;
+  z-index: 10000;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  display: none;
+  height: 100%;
+  width: 40px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+/* Event page */
+
+#event-page-title {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.em.pixelbones .em-form-submit.em-booking-submit.em-button.em-button-1 {
+  color: black !important;
+  border-color: rgb(255, 64, 0) !important;
+  scale: 1.5;
+}
+
+
+
+/* Single event page styling MENTORIT ja VASTUULLISET */
+
+.event-meta-container {
+  display: flex;
+  gap: 20px; /* Space between items */
+  flex-wrap: wrap; /* Allows stacking on smaller screens */
+  border-bottom: 1px solid #1f2518; /* Add a border between sections */
+  padding-bottom: 1.5rem;
+}
+
+.mentor-container, 
+.responsible-container {
+  flex: 1; /* Makes both take equal width */
+  min-width: 300px; /* Prevents squeezing */
+  text-align: center;
+}
+
+.mentor-container p, 
+.responsible-container p{
+  text-align: center;
+}
+
+.responsible-name,
+.responsible-phone,
+.mentor-name,
+.mentor-phone {
+  display: inline-block; /* Use inline-block for better alignment */
+  text-align: center;
+}
+
+.em.pixelbones .responsible-name,
+.em.pixelbones .mentor-name {
+  margin-bottom: 5px !important;
+}
+.mentor-detail,
+.responsible-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Stack phone number below name on mobile */
+@media (max-width: 768px) {
+  .responsible-name,
+  .responsible-phone,
+  .mentor-name,
+  .mentor-phone {
+      display: block; /* Stack in a block layout on mobile */
+      text-align: center; /* Ensure text is aligned left */
+  }
+  .em.pixelbones .em-form-submit.em-booking-submit.em-button.em-button-1 {
+    scale: 1.2;
+  }
+}
+
+/* Optional: Ensures all text is aligned to the left on desktop */
+p {
+  text-align: left; /* Aligns paragraph text to the left */
+}
+
+/* Single event page styling MILLOIN ja MISSÄ ja VARAUKSET */
+
+/* Use flexbox for layout in the column */
+.custom-item-meta-column {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to next line if necessary */
+  justify-content: space-between; /* Space between columns */
+  text-align: center;
+}
+
+/* Child elements within the columns */
+.em.pixelbones
+.custom-event-when,
+.em.pixelbones
+.custom-event-bookings-meta,
+.em.pixelbones
+.custom-event-where {
+  flex: 1; /* Allow items to grow equally */
+  min-width: 200px; /* Prevent items from becoming too narrow */
+  padding-bottom: 1.5rem;
+}
+
+.custom-event-when h3,
+.custom-event-bookings-meta h3,
+.custom-event-where h3 {
+  padding: 0;
+}
+
+/* Remove margin-right for the last item in each column */
+.custom-item-meta-column > :last-child {
+  margin-right: 0; /* Remove margin on the last item */
+}
+
+.em-event-content img {
+  width: 100%;
+}
+
+/* Stack columns on mobile */
+@media (max-width: 768px) {
+  .custom-item-meta-column {
+      flex-direction: column; /* Stack items vertically */
+  }
+
+  .custom-event-when,
+  .custom-event-bookings-meta,
+  .custom-event-where {
+      margin-right: 0; /* Remove right margin on mobile */
+      margin-bottom: 15px; /* Add bottom margin for spacing */
+  }
+}
+
+/* BOOKING FORM */
+
+body .custom-event-bookings h2 {
+  text-align: center;
+}
+
+body .em-booking-form-summary-title {
+  padding-top: 1.5rem;
+  border-top: 1px solid #1f2518;
+}
+body .em-booking-form-section-summary div{
+  padding: 0 .5rem 0 .5rem;
+}
+
+.em-booking-form-section-confirm .em-booking-form-buttons{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.custom-event-bookings {
+  border-top: 1px solid #1f2518;
+  border-bottom: 1px solid #1f2518;
+
+}
+
+.em.pixelbones .em-booking-message,
+.em.pixelbones .em-hide-dynamic {
+  text-align: center;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination a, .current{
+  padding: 10px 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  border: 1px solid #DB8300;
+  border-radius: 5px;
+  color: #DB8300;
+  transition: background 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+  background: #2B2B2B;
+  color: #fff;
+}
+
+#footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#return-home {
+  margin-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* Osallistujalista*/
+.event-attendees {
+  padding-top: 1rem;
+}
+.event-attendees ul{
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .em-booking-form-summary-title {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #sivun-otsikko {
+    display: none;
+  }
+}
+
+@media (max-width: 1150px) {
+  #content {
+    width: 80% !important;
+    padding: 1rem 0 0 0;
+    margin-top: 0;
+  }
+
+  #front-page-content {
+    width: 100%;
+  }
+
+  .ajankohtaiset-header {
+    padding: 0.5rem;
+  }
+
+  .wp-block-list {
+    padding-left: 3rem;
+  }
+
+  body:has(#menu-toggle:checked) {
+    overflow: hidden;
+  }
+
+  .menu-button-container {
+    display: flex;
+  }
+
+  #navi {
+    display: none;
+    overflow: auto;
+    position: fixed;
+    z-index: 9000;
+    width: auto;
+    inset: 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #navi a {
+    width: auto;
+    font-size: 1.1rem;
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+
+  #navi ul {
+    display: block;
+  }
+
+  #navi ul.sub-menu {
+    position: static;
+    display: block;
+    padding-left: 2rem;
+  }
+
+  #navi ul.sub-menu a {
+    font-size: 1rem;
+    justify-content: right;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #navi li:hover > ul.sub-menu {
+    display: block;
+    position: static;
+  }
+
+  #menu-toggle:checked ~ #navi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+  }
+
+  .overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 8999; 
+  }
+
+  #menu-toggle:checked ~ .overlay {
+    display: block; 
+  }
+
+  .menu-button-container {
+    z-index: 10000;
+  }
+}
+
+@media (max-width: 768px) {
+  #content {
+    width: 100% !important;
+    border-radius: 0;
+  }
+
+  #header {
+    border-radius: 0;
+  }
+
+  #footer {
+    bottom: 0;
+  }
+}
+
+.user-details h2 {
+  margin-bottom: 0 !important;
+}
+
+#exe-num {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1rem;
+}
+.alueet-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.alueet-button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.alueet-button:hover {
+  background-color: #005bb5;
+}
+
+
+/* Styling the checkbox container */
+.em-search-category-checkboxes {
+  padding-top: 10px;
+  padding-left: 1rem;
+  background-color: #E7E6DA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Styling each checkbox label */
+.category-checkbox-label {
+  flex: 1 0 30%;
+  display: block;
+  font-size: 16px;
+  background-color: #E7E6DA;
+  padding: 5px;
+}
+
+/* Change the appearance of checkboxes */
+.category-checkbox-label input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+@media (max-width: 768px) {
+  .em-search-category-checkboxes {
+    display: block;
+  }
+}

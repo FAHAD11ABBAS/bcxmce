@@ -1,0 +1,254 @@
+/* Container styling for the login form */
+.cum-login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Headings and labels */
+.cum-login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.cum-login-form label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs and button styles */
+.cum-login-form input[type="text"],
+.cum-login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cum-login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #596141;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.cum-login-form button[type="submit"]:hover {
+    background-color: #A3AC86;
+}
+
+/* Error message styling */
+.cum-login-form .error-message {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.error-message > p{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Forgot password link */
+.cum-login-form a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #0073aa;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.cum-login-form a:hover {
+    color: #A3AC86;
+}
+
+/* Already logged in message */
+.already-logged-in {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container styling for the login and password recovery form */
+.cum-login-form,
+#password-recovery-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center; /* Center content inside the container */
+}
+
+/* Headings and labels */
+.cum-login-form h2,
+#password-recovery-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.cum-login-form label,
+#password-recovery-section label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs and button styles */
+.cum-login-form input[type="text"],
+.cum-login-form input[type="password"],
+#password-recovery-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cum-login-form button[type="submit"],
+#password-recovery-section button[type="submit"],
+#password-recovery-section button[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #E2C274;
+    color: #1f2518;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cum-login-form button[type="submit"]:hover,
+#password-recovery-section button[type="submit"]:hover,
+#password-recovery-section button[type="button"]:hover {
+    background-color: #deac2d;
+}
+
+/* Error message styling */
+.cum-login-form .error-message,
+#password-recovery-section #password-recovery-error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.error-message > p,
+#password-recovery-section #password-recovery-error > p {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Success message styling */
+#password-recovery-section #password-recovery-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Forgot password link */
+.cum-login-form a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.cum-login-form a:hover {
+    color: #E2C989
+}
+
+/* Already logged in message */
+.already-logged-in {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hide the "Go Back to Login" button initially */
+#password-recovery-section #back-to-login {
+    display: none;
+}
+
+/* Centering the content in password recovery section */
+#password-recovery-section p,
+#password-recovery-section form {
+    text-align: center; /* Centers the text and form */
+    margin-bottom: 20px; /* Spacing between form and other elements */
+}
+
+/* Styling for the "Peruuta" (Cancel) button */
+#password-recovery-section #cancel-recovery {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #E7E6DA;
+    color: #333;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add some spacing between buttons */
+}
+
+#password-recovery-section #cancel-recovery:hover {
+    background-color: #aaa;
+}
+
+/* Styling for the "Takaisin kirjautumiseen" (Back to Login) button */
+#password-recovery-section #back-to-login {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#password-recovery-section #back-to-login:hover {
+    background-color: #005885;
+}

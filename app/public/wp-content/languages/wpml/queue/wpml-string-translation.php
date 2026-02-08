@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['WPML String Translation will send all strings to WPML’s Advanced Translation Editor and to the translation services which are used.'=>['urls'=>['/historia/','/tapahtumat/','/events/ajokoulutus-ja-kevatkokous-2/','/events/paatapahtuma-16-8/','/wp-admin/admin-ajax.php?em_lang=fi&lang=fi','/events/skoda-tarjoaa-illan-legendaarisin-kilpapyorin-maustettuna/'],'names'=>[],'cmp'=>['wpml-string-translation',1]]]];

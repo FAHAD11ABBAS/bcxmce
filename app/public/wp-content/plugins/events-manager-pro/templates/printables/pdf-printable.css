@@ -1,0 +1,131 @@
+@page {
+  margin: 10px 0;
+}
+body {
+  margin: 10px 0;
+}
+
+#content {
+  margin: auto;
+  width: 760px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: DejaVu Sans, Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+}
+table td {
+  padding: 5px;
+  vertical-align: top;
+}
+table td:last-child {
+  text-align: right;
+}
+table tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 15px;
+}
+table td.mid {
+  text-align: center;
+}
+table tr.line td {
+  font-weight: bold;
+  border-top: 4px solid #eee;
+}
+table tr.line td:first-child, table tr.subheader td:first-child {
+  border-top: 0;
+  border-bottom: 0;
+}
+table tr.heading td {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  padding: 7px;
+}
+table tr.heading td:last-child {
+  text-align: right;
+}
+table tr.heading td:first-child {
+  text-align: left;
+}
+table tr.details td {
+  padding-bottom: 20px;
+}
+table tr.subheader td {
+  font-weight: bold;
+  border-bottom: 2px solid #eee;
+  border-top: 4px solid #eee;
+  padding: 10px 5px;
+}
+table .subtotals td:nth-child(2), table .total td:nth-child(2) {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.header table.top td {
+  padding-bottom: 20px;
+}
+.header table.top .logo {
+  font-size: 35px;
+  line-height: 35px;
+  color: #333;
+}
+.header table.top .title {
+  font-size: 22px;
+  padding: 0;
+  margin: 10px 0 10px;
+  color: #333;
+}
+.header table.information {
+  margin-bottom: 20px;
+}
+
+table.event-info table td {
+  padding-bottom: 5px;
+}
+table.event-info td, table.event-info td:last-child {
+  text-align: left;
+}
+table.event-info td.qr {
+  text-align: right;
+  padding-top: 20px;
+}
+table.event-info .multiple-booking-events table:nth-child(n+2) {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+table.items tr td:last-child {
+  width: 110px;
+}
+table.items tr.item td {
+  border-bottom: 1px solid #eee;
+}
+
+/** RTL **/
+.invoice-box.rtl {
+  direction: rtl;
+  font-family: Tahoma, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.invoice-box.rtl table {
+  text-align: right;
+}
+
+.invoice-box.rtl table tr td:last-child {
+  text-align: left;
+}
+
+/** Utils **/
+div.page-break {
+  page-break-before: always;
+}
+
+/*# sourceMappingURL=pdf-printable.css.map */

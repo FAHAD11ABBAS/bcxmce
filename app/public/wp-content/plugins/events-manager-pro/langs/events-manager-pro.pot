@@ -1,0 +1,4659 @@
+# Copyright (C) 2023 Pixelite
+# This file is distributed under the same license as the Events Manager Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Manager Pro 3.2.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/events-manager-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-22T13:52:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: em-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Events Manager Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://eventsmanagerpro.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Supercharge the Events Manager free plugin with extra features to make your events even more successful!"
+msgstr ""
+
+#. Author of the plugin
+msgid "Pixelite"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pixelite.com/"
+msgstr ""
+
+#: add-ons/attendance/attendance-admin.php:21
+msgid "Attendance (Check In/Out)"
+msgstr ""
+
+#: add-ons/attendance/attendance-admin.php:27
+msgid "You can monitor attendance here, QR codes are not required, but can be enabled for easy scanning and check-ins via the %s settings section on this page."
+msgstr ""
+
+#: add-ons/attendance/attendance-admin.php:28
+#: add-ons/bookings-manager/bookings-manager-admin.php:26
+msgid "Ticket Scanning and Frontend Management"
+msgstr ""
+
+#: add-ons/attendance/attendance-admin.php:34
+#: add-ons/automation/admin/admin.php:50
+#: add-ons/bookings-manager/bookings-manager-admin.php:36
+#: add-ons/bookings-manager/bookings-manager-admin.php:57
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:19
+#: add-ons/emails/emails-admin.php:44
+#: add-ons/emails/emails-admin.php:87
+#: add-ons/emails/emails-admin.php:139
+#: add-ons/gateways-legacy/emails/emails-admin.php:44
+#: add-ons/gateways-legacy/emails/emails-admin.php:87
+#: add-ons/gateways-legacy/emails/emails-admin.php:139
+#: add-ons/manual-transactions/manual-bookings-admin.php:32
+#: add-ons/printables/printables-admin.php:51
+#: add-ons/rsvp/rsvp-admin.php:57
+#: add-ons/rsvp/rsvp-admin.php:77
+#: add-ons/toolbox/limits-admin.php:26
+#: add-ons/waitlists/waitlists-admin.php:42
+msgctxt "Enable a feature in settings page"
+msgid "Enable %s?"
+msgstr ""
+
+#: add-ons/attendance/attendance-booking-admin.php:72
+#: templates/bookings-manager/part-booking.php:106
+#: templates/bookings-manager/part-ticket.php:74
+msgid "Check Out"
+msgstr ""
+
+#: add-ons/attendance/attendance-booking-admin.php:74
+#: add-ons/attendance/attendance-booking-admin.php:80
+#: add-ons/automation/actions/admin/webhook.php:44
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:15
+#: add-ons/multiple-bookings/multiple-bookings.php:539
+#: templates/bookings-manager/part-booking.php:108
+#: templates/bookings-manager/part-booking.php:114
+#: templates/bookings-manager/part-ticket.php:76
+#: templates/bookings-manager/part-ticket.php:82
+msgid "Loading..."
+msgstr ""
+
+#: add-ons/attendance/attendance-booking-admin.php:78
+#: templates/bookings-manager/part-booking.php:112
+#: templates/bookings-manager/part-ticket.php:80
+msgid "Check In"
+msgstr ""
+
+#: add-ons/attendance/attendance-booking-admin.php:129
+#: templates/bookings-manager/part-ticket.php:194
+msgid "No attendance activity."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:22
+msgid "User successfully checked out."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:25
+msgid "User is already checked out."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:33
+msgid "User successfully checked in."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:36
+msgid "User is already checked in."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:43
+#: add-ons/rsvp/rsvp.php:42
+msgid "Could not complete action because booking is cancelled or rejected."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:45
+#: add-ons/rsvp/rsvp.php:44
+msgid "Could not complete action due to an error."
+msgstr ""
+
+#: add-ons/attendance/attendance.php:85
+#: add-ons/attendance/attendance.php:143
+#: templates/bookings-manager/part-ticket.php:56
+msgid "Checked In"
+msgstr ""
+
+#: add-ons/attendance/attendance.php:86
+#: add-ons/attendance/attendance.php:144
+#: templates/bookings-manager/part-ticket.php:60
+msgid "Checked Out"
+msgstr ""
+
+#: add-ons/attendance/attendance.php:87
+msgid "Not Attended"
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:19
+msgid "Emails"
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:20
+msgid "Event Booking Admins"
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:21
+msgid "Event Owner"
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:22
+msgid "Registrant"
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:28
+msgid "For multiple addresses, separate emails with a comma."
+msgstr ""
+
+#: add-ons/automation/actions/admin/email.php:32
+msgid "The message and subject can bth contain placeholders for the relevant object, such as an event or booking"
+msgstr ""
+
+#: add-ons/automation/actions/admin/webhook.php:19
+msgid "Test Webhook"
+msgstr ""
+
+#: add-ons/automation/actions/admin/webhook.php:31
+#: add-ons/automation/actions/webhook.php:39
+msgid "Please enter a valid URL for your webhook."
+msgstr ""
+
+#: add-ons/automation/actions/admin/webhook.php:42
+msgid "A fake test object as per your settings will be sent to your chosen webhook."
+msgstr ""
+
+#: add-ons/automation/actions/email.php:107
+#: add-ons/gateways-legacy/gateways.php:453
+#: add-ons/gateways/gateways-admin.php:407
+msgid "Email"
+msgstr ""
+
+#: add-ons/automation/actions/email.php:111
+msgid "Sends an email to a specific set of addresses or emails related to the passed object (such as the registrant of a booking)."
+msgstr ""
+
+#: add-ons/automation/actions/webhook.php:96
+msgid "Webhook"
+msgstr ""
+
+#: add-ons/automation/actions/webhook.php:100
+msgid "Sends a JSON-encoded payload to the supplied URL"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:25
+#: add-ons/automation/admin/admin.php:38
+#: add-ons/automation/admin/admin.php:50
+#: add-ons/automation/admin/admin.php:82
+#: add-ons/automation/admin/admin.php:91
+#: add-ons/automation/admin/admin.php:100
+#: add-ons/automation/admin/admin.php:182
+#: add-ons/automation/admin/admin.php:507
+msgid "Automation"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:44
+msgid "Automation is a powerful feature that lets you select triggers and then act on those triggers, providing endless automation possibilities. Triggers can be things such as when an event is due to start, or when a booking status changes. Actions are things like sending emails or firing a webhook to a third party."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:50
+msgid "When enabled, you will see the Automations menu link under your Events admin menu."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:79
+#: add-ons/automation/admin/admin.php:82
+#: add-ons/bookings-form/attendee-forms.php:812
+#: add-ons/bookings-form/bookings-form.php:531
+msgid "%s Deleted"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:79
+#: add-ons/automation/admin/admin.php:88
+#: add-ons/automation/admin/admin.php:97
+msgid "Automations"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:88
+#: add-ons/automation/admin/admin.php:91
+msgid "%s Activated"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:97
+#: add-ons/automation/admin/admin.php:100
+msgid "%s Deactivated"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:120
+msgid "Could not find saved automation."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:130
+#: add-ons/automation/triggers/admin/trigger.php:99
+msgid "Please enter a name for your automation."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:132
+msgid "Please assign a valid trigger to create your automation."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:147
+msgid "Automation saved!"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:149
+msgid "Automation saved! Remember to activate your automation so it can start listening for triggers."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:214
+#: add-ons/automation/admin/admin.php:216
+msgid "%s Automation"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:220
+msgid "Back to Automations"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:221
+msgid "Add New Automation"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:241
+#: add-ons/automation/admin/automation-list-table.php:156
+#: add-ons/automation/admin/automation-list-table.php:220
+msgid "Deactivate"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:242
+msgid "Your automation is ready and listening for triggers!"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:247
+#: add-ons/automation/admin/automation-list-table.php:154
+#: add-ons/automation/admin/automation-list-table.php:219
+msgid "Activate"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:248
+msgid "Your automation is ready to go! You need to activate it first though..."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:260
+msgid "Name this automation, for your reference."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:262
+msgid "When"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:266
+#: add-ons/automation/admin/automation-list-table.php:128
+msgid "Trigger"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:267
+msgid "A trigger is when something happens in Events Manager"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:271
+msgid "Select Trigger"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:283
+msgid "Select"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:285
+msgid "The selected trigger will supply an Event object, meaning you can instead use any of the following data to pass onto your actions."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:288
+msgid "Choose what to supply to your actions"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:289
+msgid "Event Bookings"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:290
+msgid "The Event"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:294
+msgid "This event will be passed on to the following actions."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:294
+#: add-ons/automation/admin/admin.php:307
+msgid "You can further filter these events with the optional filters below."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:295
+msgid "Each booking belonging to this event will be passed on to the following actions."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:295
+#: add-ons/automation/admin/admin.php:308
+msgid "You can further filter these bookings with the optional filters below."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:301
+msgid "Get the following data and..."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:302
+msgid "The Booking(s)"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:303
+msgid "The Event each booking belongs to"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:307
+msgid "The event blonging to the bookings will be passed on to the following actions."
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:308
+msgid "The bookings will be passed on to the following actions"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:319
+#: add-ons/automation/admin/admin.php:353
+#: add-ons/automation/admin/admin.php:389
+#: add-ons/automation/admin/admin.php:417
+msgid "Include"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:320
+#: add-ons/automation/admin/admin.php:354
+#: add-ons/automation/admin/admin.php:390
+#: add-ons/automation/admin/admin.php:418
+msgid "Exclude"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:322
+msgid "the following categories:"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:356
+msgid "the following tags:"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:392
+msgid "the following booking statuses:"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:402
+msgid "Choose booking statuses"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:420
+msgid "the following gateways:"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:429
+msgid "Choose payment methods used"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:449
+msgid "Then"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:454
+#: add-ons/automation/admin/admin.php:479
+#: add-ons/automation/admin/admin.php:501
+msgid "Action"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:455
+msgid "Do something when triggered"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:459
+#: add-ons/automation/admin/admin.php:461
+#: add-ons/automation/admin/admin.php:490
+#: add-ons/automation/admin/admin.php:492
+msgid "Select Action"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:479
+#: add-ons/automation/admin/admin.php:501
+msgid "Remove %s"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:486
+msgid "Add an Action"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:505
+msgid "Add Another Action"
+msgstr ""
+
+#: add-ons/automation/admin/admin.php:507
+msgid "Save %s"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:76
+msgid "All"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:92
+msgid "Filter by Status"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:94
+msgid "Active and Inactive"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:95
+#: add-ons/automation/admin/automation-list-table.php:209
+#: add-ons/gateways-legacy/gateways-admin.php:112
+#: add-ons/gateways-legacy/gateways-admin.php:179
+#: add-ons/gateways/gateways-admin.php:178
+#: add-ons/gateways/gateways-admin.php:248
+msgid "Active"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:96
+#: add-ons/automation/admin/automation-list-table.php:209
+#: add-ons/gateways-legacy/gateways-admin.php:181
+#: add-ons/gateways/gateways-admin.php:250
+msgid "Inactive"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:98
+msgid "Filter by Trigger"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:100
+#: add-ons/automation/admin/automation-list-table.php:107
+msgid "All %s"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:100
+msgid "Triggers"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:105
+msgid "Filter by Action"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:107
+#: add-ons/automation/admin/automation-list-table.php:129
+msgid "Actions"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:127
+msgid "Name"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:130
+#: add-ons/gateways-legacy/gateways.php:553
+#: add-ons/gateways-legacy/gateways.transactions.php:129
+#: add-ons/gateways/gateways.php:756
+#: add-ons/gateways/gateways.transactions.php:134
+msgid "Status"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:150
+msgid "Edit"
+msgstr ""
+
+#: add-ons/automation/admin/automation-list-table.php:151
+#: add-ons/automation/admin/automation-list-table.php:218
+#: add-ons/bookings-form/attendee-forms.php:930
+#: add-ons/bookings-form/bookings-form.php:633
+#: add-ons/coupons/coupons-admin.php:217
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:217
+msgid "Delete"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-status.php:18
+msgid "When status changes from"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-status.php:20
+msgid "Choose booking status (optional)"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-status.php:21
+msgid "No Status (New Booking)"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-status.php:26
+msgid "Note that in some situations, such as bookings with payments, if you want a new booking that is confirmed then you should select new bookings and either/both awaiting payment statuses."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-status.php:29
+msgid "Example : If you would like new bookings paid offline then select new bookings and awaiting offline payment statuses as well as selecting bookings further down that are confirmed and using the offline gateway."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:20
+#: add-ons/automation/triggers/admin/event-time.php:20
+msgid "Amount of time"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:22
+#: add-ons/automation/triggers/admin/event-time.php:22
+msgid "Unit of time"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:24
+#: add-ons/automation/triggers/admin/event-time.php:24
+msgid "Minutes"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:25
+#: add-ons/automation/triggers/admin/event-time.php:25
+msgid "Hours"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:26
+#: add-ons/automation/triggers/admin/event-time.php:26
+msgid "Days"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:28
+msgid "after the booking was made."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/booking-time.php:32
+msgid "Only events that have not started yet"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/event-time.php:28
+msgid "Before or after the event"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/event-time.php:30
+#: add-ons/coupons/coupons-admin.php:478
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:478
+msgid "Before"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/event-time.php:31
+#: add-ons/coupons/coupons-admin.php:479
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:479
+msgid "After"
+msgstr ""
+
+#: add-ons/automation/triggers/admin/event-time.php:33
+msgid "the event start time."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/trigger.php:87
+msgid "Action type %s not found. Please make sure it is enabled."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/trigger.php:102
+msgid "Please select what to output to your actions."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/trigger.php:105
+msgid "You must create at least one action."
+msgstr ""
+
+#: add-ons/automation/triggers/admin/trigger.php:140
+msgid "There was a problem saving your automation:"
+msgstr ""
+
+#: add-ons/automation/triggers/booking-status.php:25
+msgid "Booking Status Change"
+msgstr ""
+
+#: add-ons/automation/triggers/booking-status.php:29
+msgid "Triggered when a booking status has changed from one status to another, or newly created booking into any status type."
+msgstr ""
+
+#: add-ons/automation/triggers/booking-time.php:70
+msgid "Booking Time"
+msgstr ""
+
+#: add-ons/automation/triggers/booking-time.php:74
+msgid "Triggered when a booking was made after a certain amount of time."
+msgstr ""
+
+#: add-ons/automation/triggers/event-time.php:72
+msgid "Event Times"
+msgstr ""
+
+#: add-ons/automation/triggers/event-time.php:76
+msgid "Triggered a specific amount of time before or after an event."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:59
+#: add-ons/bookings-form/attendee-forms.php:203
+#: add-ons/bookings-form/attendee-forms.php:389
+#: add-ons/bookings-form/attendee-forms.php:582
+#: templates/multiple-bookings/cart-table.php:80
+#: templates/placeholders/bookingattendees.php:17
+msgid "Attendee %s"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:87
+#: add-ons/bookings-form/attendee-forms.php:723
+#: add-ons/bookings-form/attendee-forms.php:728
+#: add-ons/bookings-form/bookings-form.php:90
+#: add-ons/bookings-form/bookings-form.php:466
+#: add-ons/bookings-form/bookings-form.php:469
+#: add-ons/emails/custom-emails-admin.php:78
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:77
+#: add-ons/gateways-legacy/gateway.paypal.php:549
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:38
+#: add-ons/toolbox/cancellation.php:116
+#: emp-install.php:291
+#: emp-install.php:464
+msgid "Default"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:496
+msgid "Split bookings by attendee"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:721
+#: add-ons/bookings-form/attendee-forms.php:880
+msgid "Selected Attendee Form"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:797
+#: add-ons/bookings-form/bookings-form.php:516
+#: add-ons/gateways-legacy/gateways.php:430
+#: add-ons/gateways/gateways-admin.php:384
+#: add-ons/user-fields.php:426
+msgid "Changes Saved"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:806
+#: add-ons/bookings-form/bookings-form.php:525
+msgid "The form <em>%s</em> is now the default booking form. All events without a pre-defined booking form will start using this form from now on."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:812
+#: add-ons/bookings-form/attendee-forms.php:864
+msgid "Attendee Form"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:821
+#: add-ons/bookings-form/bookings-form.php:539
+msgid "Form renamed to <em>%s</em>."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:833
+#: add-ons/bookings-form/attendee-forms.php:844
+#: add-ons/bookings-form/bookings-form.php:548
+#: add-ons/bookings-form/bookings-form.php:559
+msgid "New form created. You are now editing your new form."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:841
+#: add-ons/bookings-form/attendee-forms.php:923
+#: add-ons/bookings-form/bookings-form.php:556
+#: add-ons/bookings-form/bookings-form.php:626
+msgid "Duplicate"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:867
+msgid "If enabled, this form will be shown and required for every space booked."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:870
+msgid "Enable Attendee Forms"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:882
+#: add-ons/gateways-legacy/gateways.php:361
+#: add-ons/gateways-legacy/gateways.transactions.php:300
+#: add-ons/gateways/gateways.php:606
+#: add-ons/gateways/gateways.transactions.php:308
+msgid "None"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:895
+#: add-ons/bookings-form/bookings-form.php:596
+msgid "Make Default"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:902
+#: add-ons/bookings-form/bookings-form.php:607
+msgid "Add New"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:906
+msgid "This is the default attendee form and will be used for any event where you have not chosen a specific form to use."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:908
+msgid "If you don't want to ask for attendee information by default, select None as your booking form and make it the default form."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:912
+#: add-ons/bookings-form/bookings-form.php:615
+msgid "You are now editing "
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:917
+#: add-ons/bookings-form/bookings-form.php:620
+msgid "Rename"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:933
+#: add-ons/bookings-form/bookings-form.php:640
+msgid "<strong>Important:</strong> When editing this form, to make sure your old booking information is displayed, make sure new field ids correspond with the old ones."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:937
+msgid "Default Value"
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:937
+msgid "No attendee form selected. Choose a form, or create a new one above."
+msgstr ""
+
+#: add-ons/bookings-form/attendee-forms.php:964
+msgid "Attendees"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:62
+#: add-ons/gateways-legacy/gateways.php:59
+#: add-ons/gateways/gateways.php:68
+#: emp-install.php:297
+#: emp-install.php:309
+msgid "Zip/Post Code"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:65
+#: add-ons/gateways-legacy/gateways.php:62
+#: add-ons/gateways/gateways.php:71
+#: emp-install.php:300
+#: emp-install.php:312
+msgid "Fax"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:462
+msgid "You can choose to use a custom booking form, or leave as is to use the default booking form."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:464
+#: add-ons/bookings-form/bookings-form.php:582
+msgid "Selected Booking Form"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:510
+msgid "You must include an E-mail field type for booking forms to work. These are used to create the user account and aren't shown to logged in users."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:531
+msgid "Booking Form"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:575
+msgid "Booking Form - General Information"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:578
+msgid "You can customize the fields shown in your booking forms below. "
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:578
+msgid "It is required that you have at least an email and name field so guest users can register."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:579
+msgid "Registration fields are only shown to guest visitors by default. You can choose to show these fields and make them editable by logged in user in your <a href=\"%s\">PRO Booking Form Options</a>."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:597
+msgid "You are about to make this your default booking form. All events without an existing specifically chosen booking form will use this new default form from now on."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:599
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:610
+msgid "This is the default bookings form and will be used for any event where you have not chosen a specific form to use."
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:634
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: add-ons/bookings-form/bookings-form.php:636
+msgid "All events using this form will start using the default form automatically."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:31
+msgid "This feature will enable a frontend booking management area which can be easily accessed with a phone by scanning QR codes to complete tasks such as checking in attendees or viewing their ticket information."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:35
+#: add-ons/rsvp/rsvp-admin.php:56
+msgid "Allows you to access the frontend bookings management pages via a special URL which you can customize below."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:36
+msgid "Frontend Booking Management"
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:40
+msgid "This is the path used to define an custom url where you can access the bookings manager which will be located under %s. User letters, numbers and dashes and underscores are permitted."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:42
+msgid "Bookings Manager Endpiont"
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:55
+msgid "You can generate a QR code for tickets, which are automatically included in placeholders such as %s and also in printable invoices/tickets (including email PDFs). Scan this code with your phone to access the frontend bookings manager and complete tasks such as checking in a user."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:57
+msgid "QR Codes"
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:59
+msgid "Leave blank for local QR generation. We recommend doing this only if you cannot generate QR codes locally, or if you are using a paid/reliable service."
+msgstr ""
+
+#: add-ons/bookings-manager/bookings-manager-admin.php:62
+msgid "QR Code Generator URL"
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:46
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:46
+msgid "This coupon code has already been used, coupon codes must be unique."
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:85
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:85
+msgid "Something went wrong saving your %s."
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:85
+#: add-ons/coupons/coupon-admin.php:89
+#: add-ons/coupons/coupon-admin.php:94
+#: add-ons/coupons/coupon-admin.php:96
+#: add-ons/coupons/coupon-admin.php:116
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:85
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:89
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:94
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:96
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:116
+msgid "Coupon"
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:89
+#: add-ons/coupons/coupon-admin.php:96
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:89
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:96
+msgid "Successfully saved %s"
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:94
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:94
+msgid "Something went wrong updating your %s."
+msgstr ""
+
+#: add-ons/coupons/coupon-admin.php:116
+#: add-ons/gateways-legacy/coupons/coupon-admin.php:116
+msgid "Successfully deleted %s"
+msgstr ""
+
+#: add-ons/coupons/coupon.php:60
+#: add-ons/coupons/coupons-admin.php:197
+#: add-ons/coupons/coupons-admin.php:207
+#: add-ons/gateways-legacy/coupons/coupon.php:60
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:197
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:207
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:446
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:450
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:464
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:468
+msgid "Discount"
+msgstr ""
+
+#: add-ons/coupons/coupon.php:60
+#: add-ons/coupons/coupons-admin.php:194
+#: add-ons/coupons/coupons-admin.php:204
+#: add-ons/gateways-legacy/coupons/coupon.php:60
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:194
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:204
+msgid "Code"
+msgstr ""
+
+#: add-ons/coupons/coupon.php:180
+#: add-ons/coupons/coupon.php:184
+#: add-ons/gateways-legacy/coupons/coupon.php:180
+#: add-ons/gateways-legacy/coupons/coupon.php:184
+msgid "%s Off"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:36
+#: add-ons/coupons/coupons-admin.php:110
+#: add-ons/coupons/coupons-admin.php:175
+#: add-ons/coupons/coupons-admin.php:178
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:36
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:110
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:175
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:178
+msgid "Coupons"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:36
+#: add-ons/coupons/coupons-admin.php:42
+#: add-ons/coupons/coupons-admin.php:46
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:36
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:42
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:46
+msgid "show coupons"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:43
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:43
+msgid "hide coupons"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:58
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:58
+msgid "Coupons selected here will be applied to bookings made for this event."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:84
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:84
+msgid "No coupons created yet."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:93
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:93
+msgid "The following codes will be automatically available to this event."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:110
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:110
+msgid "Coupons Manager"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:166
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:166
+msgid "Edit Coupons"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:195
+#: add-ons/coupons/coupons-admin.php:205
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:195
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:205
+msgid "Created By"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:196
+#: add-ons/coupons/coupons-admin.php:206
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:196
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:206
+msgid "Description"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:198
+#: add-ons/coupons/coupons-admin.php:208
+#: add-ons/coupons/coupons-admin.php:289
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:198
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:208
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:289
+msgid "Uses"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:230
+#: add-ons/coupons/coupons-admin.php:294
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:230
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:294
+#: add-ons/waitlists/waitlists-events.php:34
+#: add-ons/waitlists/waitlists-events.php:45
+msgid "Unlimited"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:241
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:241
+msgid "No coupons have been inserted yet!"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:256
+#: add-ons/coupons/coupons-admin.php:376
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:256
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:376
+msgid "coupon"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:285
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:285
+msgid "Coupon Usage History"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:287
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:287
+msgid "You are viewing the details of coupon %s - <a href=\"%s\">edit</a>"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:316
+#: add-ons/coupons/coupons-admin.php:327
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:316
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:327
+msgid "Original Total Price"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:317
+#: add-ons/coupons/coupons-admin.php:328
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:317
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:328
+msgid "Coupon Discount"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:318
+#: add-ons/coupons/coupons-admin.php:329
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:318
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:329
+msgid "Final Price"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:365
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:365
+msgid "Your coupon hasn't been used yet!"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:382
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:382
+msgid "required"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:385
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:385
+msgid "Edit Coupon"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:395
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:395
+msgid "Coupon Availability"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:398
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:398
+msgid "Only on specific events that I own"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:399
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:399
+msgid "All my events"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:401
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:401
+msgid "All events on this site"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:405
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:405
+msgid "Choose whether to allow this coupon to be used only on events you choose, all your events or all events on this site."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:409
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:409
+msgid "This coupon will be available for all bookings made and discount is applied to the total price before checking out."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:412
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:412
+msgid "Registered Users Only?"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:415
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:415
+msgid "If checked, only logged in users will be able to use this coupon."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:419
+#: add-ons/coupons/coupons.php:455
+#: add-ons/coupons/coupons.php:640
+#: add-ons/coupons/coupons.php:642
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:419
+#: add-ons/gateways-legacy/coupons/coupons.php:454
+#: add-ons/gateways-legacy/coupons/coupons.php:627
+#: add-ons/gateways-legacy/coupons/coupons.php:629
+msgid "Coupon Code"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:422
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:422
+msgid "This is the code you give to users for them to use when booking."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:438
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:438
+msgid "Total Coupons"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:441
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:441
+msgid "If set, this coupon will only be valid that many times."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:451
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:451
+msgid "Coupons will only be valid from this date onwards."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:460
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:460
+msgid "Coupons will not be valid after this date."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:465
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:465
+msgid "Discount Type"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:468
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:468
+msgid "Percentage"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:469
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:469
+msgid "Fixed Amount"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:475
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:475
+msgid "Apply Before/After Tax"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:482
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:482
+msgid "Choose whether to apply this discount before or after tax has been added, if applicable."
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:486
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:486
+msgid "Discount Amount"
+msgstr ""
+
+#: add-ons/coupons/coupons-admin.php:489
+#: add-ons/gateways-legacy/coupons/coupons-admin.php:489
+msgid "Enter a number here only, decimals accepted."
+msgstr ""
+
+#: add-ons/coupons/coupons.php:211
+#: add-ons/coupons/coupons.php:225
+#: add-ons/coupons/coupons.php:543
+#: add-ons/gateways-legacy/coupons/coupons.php:211
+#: add-ons/gateways-legacy/coupons/coupons.php:225
+#: add-ons/gateways-legacy/coupons/coupons.php:530
+msgid "Coupon Invalid"
+msgstr ""
+
+#: add-ons/coupons/coupons.php:214
+#: add-ons/coupons/coupons.php:219
+#: add-ons/coupons/coupons.php:534
+#: add-ons/gateways-legacy/coupons/coupons.php:214
+#: add-ons/gateways-legacy/coupons/coupons.php:219
+#: add-ons/gateways-legacy/coupons/coupons.php:521
+msgid "Coupon Not Found"
+msgstr ""
+
+#: add-ons/coupons/coupons.php:270
+#: add-ons/gateways-legacy/coupons/coupons.php:270
+msgid "Invalid coupon code provided"
+msgstr ""
+
+#: add-ons/coupons/coupons.php:483
+#: add-ons/gateways-legacy/coupons/coupons.php:476
+msgid "Apply Discount"
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:12
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:19
+msgid "Dependent Events"
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:16
+msgid "Enable the ability to require that specific events be booked before a certain event can be subsequently booked. If enabled, dependent event options will appear within the booking options of an event."
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:24
+msgid "Dependent Booking Required"
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:24
+msgid "When a user has not booked the reuqired event."
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:25
+msgid "Dependent Booking Required (Guests)"
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings-admin.php:25
+msgid "When a user is not logged in."
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings.php:151
+msgid "You can choose to require a booking to have been made for a specific event before this event becomes available for booking. Note that users will need to have booked the dependent event as a registered user to gain access to this event."
+msgstr ""
+
+#: add-ons/dependent-bookings/dependent-bookings.php:153
+msgid "Event ID"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin-ml.php:37
+#: add-ons/gateways-legacy/emails/custom-emails-admin-ml.php:28
+msgid "These settings are applied when making a booking on %s languge pages. The email template settings here will override those for the default language."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin-ml.php:84
+#: add-ons/emails/custom-emails-admin.php:378
+#: add-ons/emails/custom-emails-admin.php:562
+#: add-ons/gateways-legacy/emails/custom-emails-admin-ml.php:67
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:364
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:529
+msgid "An invalid admin email was supplied for your custom emails and was not saved in your settings."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:61
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:60
+msgid "Also Send Event Owner Emails To:"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:79
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:78
+msgid "Enabled"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:80
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:79
+msgid "Disabled"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:85
+#: add-ons/emails/emails-admin.php:149
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:84
+#: add-ons/gateways-legacy/emails/emails-admin.php:149
+#: add-ons/waitlists/waitlists-admin.php:158
+#: add-ons/waitlists/waitlists-admin.php:168
+#: add-ons/waitlists/waitlists-admin.php:178
+#: add-ons/waitlists/waitlists-admin.php:188
+msgid "Subject"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:89
+#: add-ons/emails/emails-admin.php:150
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:88
+#: add-ons/gateways-legacy/emails/emails-admin.php:150
+#: add-ons/waitlists/waitlists-admin.php:159
+#: add-ons/waitlists/waitlists-admin.php:169
+#: add-ons/waitlists/waitlists-admin.php:179
+#: add-ons/waitlists/waitlists-admin.php:189
+msgid "Message"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:167
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:166
+msgid "Default or Free Booking Emails"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:170
+#: add-ons/emails/custom-emails-admin.php:432
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:169
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:407
+msgid "Event Owner Emails"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:171
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:170
+msgid "These emails get sent to the event owners when a person has made a booking."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:180
+#: add-ons/emails/custom-emails-admin.php:442
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:179
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:417
+msgid "Attendee Emails"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:181
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:180
+msgid "These emails will be sent to the person who booked a place at your event."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:299
+#: add-ons/emails/custom-emails-admin.php:317
+#: add-ons/emails/emails-admin.php:80
+#: add-ons/emails/emails-admin.php:87
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:310
+#: add-ons/gateways-legacy/emails/emails-admin.php:80
+#: add-ons/gateways-legacy/emails/emails-admin.php:87
+msgid "Custom Booking Email Templates"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:318
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:311
+msgid "Booking Email Templates"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:319
+#: add-ons/emails/custom-emails-admin.php:329
+#: add-ons/emails/custom-emails-admin.php:526
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:312
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:322
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:493
+msgid "Below you can modify the emails that are sent when bookings are made. This will override the default emails located in your %s settings page."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:320
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:313
+msgid "Additionally, you can also override these emails at an event level when editing an event. Should you choose not to, any overriden emails on this page will be considered the default email for this gateway."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:321
+#: add-ons/emails/custom-emails-admin.php:330
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:314
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:323
+msgid "Note that some gateways do not automatically send pending or confirmed emails, in these cases they may only apply to when event admins manually change the status of a booking resulting in an automated email getting sent."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:322
+#: add-ons/emails/custom-emails-admin.php:331
+#: add-ons/emails/custom-emails-admin.php:530
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:315
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:324
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:497
+msgid "Click on the title texts with a plus (+) next to them to reveal further options, and the minus (-) sign to hide them."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:324
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:317
+#: add-ons/gateways-legacy/gateway.paypal.php:510
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:86
+msgid "Important:"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:324
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:317
+msgid "You are in Multiple Booking Mode. These emails will only be used when individually modifying bookings which trigger these individual event booking emails."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:328
+#: add-ons/emails/custom-emails-admin.php:329
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:321
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:322
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:30
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:117
+msgid "Multiple Booking Email Templates"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:429
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:404
+msgid "%s Gateway Emails"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:433
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:408
+msgid "These emails get sent to the event owners when a person has made a booking using this specific gateway."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:443
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:418
+msgid "These emails will be sent to the person who booked a place at your event and selected this specific gateway."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:455
+#: add-ons/emails/custom-emails-admin.php:456
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:430
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:431
+#: add-ons/gateways-legacy/gateways.php:97
+#: add-ons/gateways/gateways.php:113
+msgid "Awaiting Offline Payment"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:507
+#: add-ons/emails/custom-emails-admin.php:508
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:474
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:475
+msgid "Custom Automated Emails"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:523
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:490
+msgid "Since %s is enabled, these emails will only be sent when individual bookings are modified afterwards, such as changing the status of the booking individually or resending an email."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:523
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:490
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:43
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:49
+msgid "Multiple Bookings Mode"
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:528
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:495
+msgid "You can also create default emails for specific gateways in your individual %s settings page."
+msgstr ""
+
+#: add-ons/emails/custom-emails-admin.php:528
+#: add-ons/gateways-legacy/emails/custom-emails-admin.php:495
+msgid "Gateway Settings"
+msgstr ""
+
+#: add-ons/emails/custom-emails.php:281
+#: add-ons/emails/custom-emails.php:298
+#: add-ons/gateways-legacy/emails/custom-emails.php:279
+#: add-ons/gateways-legacy/emails/custom-emails.php:296
+msgid "Admin Emails"
+msgstr ""
+
+#: add-ons/emails/email-bookings.php:208
+#: add-ons/gateways-legacy/emails/email-bookings.php:208
+msgid "We would email %d emails."
+msgstr ""
+
+#: add-ons/emails/email-bookings.php:209
+#: add-ons/gateways-legacy/emails/email-bookings.php:209
+msgid "View Recipients"
+msgstr ""
+
+#: add-ons/emails/email-bookings.php:210
+#: add-ons/gateways-legacy/emails/email-bookings.php:210
+msgid "Hide Recipients"
+msgstr ""
+
+#: add-ons/emails/email-bookings.php:267
+#: add-ons/emails/email-bookings.php:273
+#: add-ons/gateways-legacy/emails/email-bookings.php:267
+#: add-ons/gateways-legacy/emails/email-bookings.php:273
+#: add-ons/manual-transactions/manual-bookings.php:73
+#: add-ons/manual-transactions/manual-bookings.php:78
+msgid "Go back to &quot;%s&quot; bookings"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:13
+#: add-ons/emails/emails-admin.php:18
+#: add-ons/gateways-legacy/emails/emails-admin.php:13
+#: add-ons/gateways-legacy/emails/emails-admin.php:18
+msgid "Add iCal invite?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:13
+#: add-ons/emails/emails-admin.php:18
+#: add-ons/gateways-legacy/emails/emails-admin.php:13
+#: add-ons/gateways-legacy/emails/emails-admin.php:18
+msgid "You can choose to add ical attachments to your booking emails, which display event information in email clients such as gmail and outlook allowing for easy adding to calendars."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:17
+#: add-ons/gateways-legacy/emails/emails-admin.php:17
+msgid "Note that for bookings with multiple events, some clients such as Gmail will only show the first event (this is a limitation in their parsing of ical), however the ical file can be downloaded and added to calendar clients for all the events."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:33
+#: add-ons/emails/emails-admin.php:44
+#: add-ons/gateways-legacy/emails/emails-admin.php:33
+#: add-ons/gateways-legacy/emails/emails-admin.php:44
+msgid "Event Email Reminders"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:38
+#: add-ons/gateways-legacy/emails/emails-admin.php:38
+msgid "Events Manager can send people that booked a place at your events a reminder email before it starts."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:39
+#: add-ons/gateways-legacy/emails/emails-admin.php:39
+msgid "We use <a href=\"%s\">WP Cron</a> for scheduling checks for future events, which relies on site visits to trigger these tasks to run. If you have low levels of site traffic, this may not happen frequently enough, so you may want to consider forcing WP-Cron to run every few minutes. For more information, <a href=\"%s\">read this tutorial</a> on setting up WP Cron."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:41
+#: add-ons/gateways-legacy/emails/emails-admin.php:41
+msgid "<strong>Important!</strong>, you should use SMTP as your email setup if you are sending automated emails in this way for optimal performance. Other methods are not suited to sending mass emails."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:45
+#: add-ons/gateways-legacy/emails/emails-admin.php:45
+msgid "Days before reminder"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:45
+#: add-ons/gateways-legacy/emails/emails-admin.php:45
+msgid "You can choose to send people attending your event x days before the event starts. Minimum is one day."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:46
+#: add-ons/gateways-legacy/emails/emails-admin.php:46
+msgid "Attach ical invite?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:46
+#: add-ons/gateways-legacy/emails/emails-admin.php:46
+msgid "If using SMTP in your email settings. You can automatically attach an ical file which some email clients (e.g. gmail) will render as an invitation they can add to their calendar."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:50
+#: add-ons/gateways-legacy/emails/emails-admin.php:50
+msgid "WP Cron Time"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:53
+#: add-ons/gateways-legacy/emails/emails-admin.php:53
+msgid "Every day Events Manager automatically checks upcoming events in order to generate emails. You can choose at what time of day to run this check, if your site has a lot of traffic, it may help having this run at times of lower server loads."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:57
+#: add-ons/gateways-legacy/emails/emails-admin.php:57
+msgid "Reminder subject"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:58
+#: add-ons/gateways-legacy/emails/emails-admin.php:58
+msgid "Approved email"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:84
+#: add-ons/gateways-legacy/emails/emails-admin.php:84
+msgid "You can customize the email templates sent when users make a booking for one of your events."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:90
+#: add-ons/gateways-legacy/emails/emails-admin.php:90
+msgid "Event Emails"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:92
+#: add-ons/gateways-legacy/emails/emails-admin.php:92
+msgid "Allow custom emails for events?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:92
+#: add-ons/gateways-legacy/emails/emails-admin.php:92
+msgid "Allow custom booking email templates to be configured for individual events."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:92
+#: add-ons/emails/emails-admin.php:93
+#: add-ons/gateways-legacy/emails/emails-admin.php:92
+#: add-ons/gateways-legacy/emails/emails-admin.php:93
+msgid "Users with the %s user capability will be able to do this when adding/editing events."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:93
+#: add-ons/gateways-legacy/emails/emails-admin.php:93
+msgid "Allow custom admin email addresses for events?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:93
+#: add-ons/gateways-legacy/emails/emails-admin.php:93
+msgid "Allow adding custom email addresses to be addded to individual events."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:95
+#: add-ons/gateways-legacy/emails/emails-admin.php:95
+msgid "Gateway Emails"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:97
+#: add-ons/gateways-legacy/emails/emails-admin.php:97
+msgid "Allow custom emails for gateways?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:97
+#: add-ons/gateways-legacy/emails/emails-admin.php:97
+msgid "Allow administrators of this blog to configure custom booking email templates inside each %s settings page."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:97
+#: add-ons/emails/emails-admin.php:98
+#: add-ons/gateways-legacy/emails/emails-admin.php:97
+#: add-ons/gateways-legacy/emails/emails-admin.php:98
+#: add-ons/gateways-legacy/gateways-admin.php:61
+#: add-ons/gateways/gateways-admin.php:122
+msgid "Payment Gateways"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:98
+#: add-ons/gateways-legacy/emails/emails-admin.php:98
+msgid "Allow custom admin email addresses for gateways?"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:98
+#: add-ons/gateways-legacy/emails/emails-admin.php:98
+msgid "Allow administrators of this blog to add additional admin email addresses for gateways inside each %s settings page."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:130
+#: add-ons/gateways-legacy/emails/emails-admin.php:130
+msgid "Send Booked User Emails"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:135
+#: add-ons/gateways-legacy/emails/emails-admin.php:135
+msgid "By enabling this feature, event admins who can manage bookings can also send a mass email to users who have a booking at a specific event, which can make use of placeholders to provide unique information to each booking email. This feature will be available as a link/button when viewing the event bookings admin or the bookings admin section whilst editing an event."
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:139
+#: add-ons/gateways-legacy/emails/emails-admin.php:139
+msgid "Emailing Booked Users"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:144
+#: add-ons/gateways-legacy/emails/emails-admin.php:144
+msgid "Default Email Template"
+msgstr ""
+
+#: add-ons/emails/emails-admin.php:145
+#: add-ons/gateways-legacy/emails/emails-admin.php:145
+msgid "The following email templates will be used as the initial email content for sending to booked users."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:294
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:311
+msgid "Refunded"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:305
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:322
+msgid "Voided"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:328
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:345
+msgid "Credit Card Number"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:332
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:349
+msgid "Expiry Date"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:351
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:368
+msgid "CCV"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:456
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:460
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:474
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim.php:478
+msgid "Surcharge"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:503
+#: add-ons/gateways-legacy/gateway.offline.php:190
+#: add-ons/gateways-legacy/gateway.paypal.php:503
+#: add-ons/gateways/gateway-admin.php:291
+#: add-ons/gateways/gateway-admin.php:294
+msgid "Success Message"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:503
+msgid "The message that is shown to a user when a booking is successful and payment has been taken."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:504
+#: add-ons/gateways-legacy/gateway.paypal.php:504
+msgid "Success Free Message"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:504
+msgid "If some cases if you allow a free ticket (e.g. pay at gate) as well as paid tickets, this message will be shown and the user will not be charged."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:508
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:564
+msgid "Please visit the <a href=\"%s\">documentation</a> for further instructions on setting up Authorize.net with Events Manager."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:512
+#: add-ons/gateways/gateways-admin.php:179
+msgid "Mode"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:516
+msgid "Sandbox"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:517
+#: add-ons/gateways/gateway-admin.php:126
+#: add-ons/gateways/gateway-admin.php:158
+#: add-ons/gateways/gateway-admin.php:411
+#: add-ons/gateways/gateway-admin.php:463
+msgid "Live"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:520
+msgid "Please visit <a href=\"%s\">Authorize.net</a> to set up a sandbox account if you would like to test this gateway out. Alternatively, you can use your real account in test mode, which you can set on your Authorize.net control panel."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:529
+#: add-ons/gateways/gateway-admin.php:549
+msgid "A valid SSL certificate is required for live payments using this gateway. We are not able to connect to this URL: %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:551
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:22
+msgid "API Login ID"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:552
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:23
+msgid "Transaction Key"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:553
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:24
+msgid "Signature Key"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:560
+#: add-ons/gateways/gateway-admin.php:628
+msgid "Payment Notifications"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:561
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:44
+msgid "If you would like to receive notifications from Authorize.net and handle refunds or voided transactions automatically, you need to enable either Silent Posts or Webhooks. We recommend using Webhooks instead of Silent Posts."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:562
+#: add-ons/gateways/gateway-admin.php:645
+msgid "Your Webhooks Endpoint url is %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:563
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:45
+msgid "Your Silent Posts url is %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:569
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:54
+msgid "Email Customer (on success)"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:579
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:64
+msgid "Customer Receipt Email Header"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:580
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:65
+msgid "Thanks for your payment!"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:583
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:68
+msgid "Customer Receipt Email Footer"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:587
+#: add-ons/gateways-legacy/gateway.paypal.php:620
+#: add-ons/gateways/gateway-admin.php:352
+msgid "Manually approve completed transactions?"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:590
+#: add-ons/gateways-legacy/gateway.paypal.php:623
+#: add-ons/gateways/gateway-admin.php:355
+msgid "By default, when someone pays for a booking, it gets automatically approved once the payment is confirmed. If you would like to manually verify and approve bookings, tick this box."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.authorize.aim.php:591
+#: add-ons/gateways-legacy/gateway.paypal.php:624
+msgid "Approvals must also be required for all bookings in your <a href=\"%s\">settings</a> for this to work properly."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:41
+#: add-ons/gateways/gateway.offline.php:45
+msgid "Payment has been registered."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:45
+#: add-ons/gateways/gateway.offline.php:49
+msgid "Booking is now fully paid and confirmed."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:52
+#: add-ons/gateways/gateway.offline.php:56
+msgid "Please enter a valid payment amount. Numbers only, use negative number to credit a booking."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:62
+#: add-ons/gateways/gateway.offline.php:71
+msgid "Be aware that by approving a booking awaiting payment, a full payment transaction will be registered against this booking, meaning that it will be considered as paid."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:142
+#: add-ons/gateways-legacy/gateway.offline.php:167
+#: add-ons/gateways/gateway.offline.php:139
+#: add-ons/gateways/gateway.offline.php:164
+msgid "Add Offline Payment"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:150
+#: add-ons/gateways-legacy/gateways.transactions.php:126
+#: add-ons/gateways/gateway.offline.php:147
+#: add-ons/gateways/gateways.transactions.php:131
+msgid "Amount"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:153
+#: add-ons/gateways/gateway.offline.php:150
+msgid "Please enter a valid payment amount (e.g. 10.00). Use negative numbers to credit a booking."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:157
+#: add-ons/gateways/gateway.offline.php:154
+msgid "Comments"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.offline.php:190
+msgid "The message that is shown to a user when a booking with offline payments is successful."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:26
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal.php:42
+msgid "Awaiting PayPal Payment"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:83
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal.php:87
+msgid "To finalize your booking, please click the following button to proceed to PayPal."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:132
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal.php:134
+msgid "Resume Payment"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:497
+msgid "API credentials are now required to auto-delete unpaid bookings after a certain period of time, to avoid any potential accidental deletions. For more information please see our %s page."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:503
+#: add-ons/gateways/gateway-admin.php:290
+msgid "The message that is shown to a user when a booking is successful whilst being redirected to %s for payment."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:504
+msgid "If some cases if you allow a free ticket (e.g. pay at gate) as well as paid tickets, this message will be shown and the user will not be redirected to %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:505
+#: add-ons/gateways/gateway-admin.php:298
+msgid "Thank You Message"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:505
+#: add-ons/gateways/gateway-admin.php:298
+msgid "If you choose to return users to the default Events Manager thank you page after a user has paid via %s, you can customize the thank you message here."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:506
+#: add-ons/gateways/gateway-admin.php:379
+msgid "Payment Cancelled Message"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:506
+msgid "This message will be displayed when users are redirected back from %s to a event booking or checkout page if they have clicked the cancel/back button on the website (not the back button on a browser), which would result in their temporary booking also being cancelled and deleted."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:509
+#: add-ons/gateways/gateway-admin.php:536
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:85
+msgid "%s Credentials"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:510
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:86
+msgid "Your return url is %s"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:511
+#: add-ons/gateways/gateway-admin.php:538
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:87
+msgid "Please visit the <a href=\"%s\">documentation</a> for further instructions."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:515
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:31
+msgid "PayPal Email"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:516
+#: add-ons/gateways/gateway-admin.php:560
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:91
+msgid "Live Site"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:516
+#: add-ons/gateways/gateway-admin.php:560
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:91
+msgid "Test Mode (Sandbox)"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:517
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:92
+msgid "PayPal Mode"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:521
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:96
+msgid "The following API credentials are optional, but recommended. They will allow us to check whether payments have gone through in the event that IPN notifications fail to reach us."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:522
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:97
+msgid "These credentials are required if you enable deleting bookings that remain unpaid after x minutes."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:527
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:9
+msgid "API Username"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:528
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:10
+msgid "API Password"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:529
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:11
+msgid "API Signature"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:537
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:27
+msgid "%s Options"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:540
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:32
+msgid "Include Taxes In Itemized Prices"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:540
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:32
+msgid "If set to yes, taxes are not included in individual item prices and total tax is shown at the bottom. If set to no, taxes are included within the individual prices."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:540
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:32
+msgid "We strongly recommend setting this to No."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:540
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:32
+msgid "Click here for more information."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:542
+msgid "Paypal Currency"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:543
+msgid "Set your currency in the <a href=\"%s\">settings</a> page."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:546
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:35
+msgid "PayPal Language"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:564
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:53
+msgid "PayPal allows you to select a default language users will see. This is also determined by PayPal which detects the locale of the users browser. The default would be US."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:568
+#: add-ons/gateways/gateway-admin.php:297
+msgid "Return URL"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:571
+msgid "Once a payment is completed, users will be offered a link to this URL which confirms to the user that a payment is made. If you would to customize the thank you page, create a new page and add the link here. For automatic redirect, you need to turn auto-return on in your PayPal settings."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:575
+#: add-ons/gateways/gateway-admin.php:378
+msgid "Cancel URL"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:578
+msgid "Whilst paying on PayPal, if a user cancels, they will be redirected to this page."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:582
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:57
+msgid "PayPal Page Logo"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:586
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:61
+msgid "Add your logo to the PayPal payment page. It's highly recommended you link to a https:// address."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:587
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:62
+msgid "PayPal requires this logo to be a maximum size of 150 x 50 pixels, larger images will be cropped."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:592
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:67
+msgid "Border Color"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:595
+#: add-ons/gateways/paypal-legacy-standard/gateway.paypal-admin.php:70
+msgid "Provide a hex value color to change the color from the default blue to another color (e.g. #CCAAAA)."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:607
+msgid "If set to \"Yes\", spaces will be reserved once a user submits a booking and proceeds to payment, even if a user does not complete the payment process. We recommend setting this to \"Yes\" and automatically deleting upaid bookings after at least %s minutes in the %s setting below."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:607
+#: add-ons/gateways-legacy/gateway.paypal.php:611
+msgid "Delete Bookings Pending Payment"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:613
+#: add-ons/gateways/gateway-admin.php:324
+msgid "minutes"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.paypal.php:614
+msgid "Once a booking is started and the user is taken to PayPal, Events Manager stores a booking record in the database to identify the incoming payment. If you would like these bookings to expire after x minutes, please enter a value above (note that bookings will be deleted, and any late payments will need to be refunded manually via PayPal)."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:555
+#: add-ons/gateways/gateway.php:867
+msgid "View this transaction on %s"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:617
+#: add-ons/gateways/gateways-admin.php:317
+msgid "Gateway updated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:618
+#: add-ons/gateways/gateways-admin.php:319
+msgid "Gateway not updated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:622
+#: add-ons/gateways/gateway-admin.php:162
+msgid "Edit &quot;%s&quot; settings"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:626
+msgid "Back to gateways"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:639
+#: add-ons/gateways-legacy/gateway.php:644
+msgid "Only if you have not enabled quick pay buttons in your <a href=\"%s\">gateway settings</a>."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:640
+#: add-ons/gateways/gateway-admin.php:254
+msgid "The user will see this as the text option when choosing a payment method."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:641
+#: add-ons/gateways/gateway-admin.php:255
+msgid "Gateway Title"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:645
+#: add-ons/gateways/gateway-admin.php:259
+msgid "If a user chooses to pay with this gateway, or it is selected by default, this message will be shown just below the selection."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:646
+#: add-ons/gateways/gateway-admin.php:260
+msgid "Booking Form Information"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:652
+msgid "Quick Pay Buttons"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:653
+msgid "If you have chosen to only use quick pay buttons in your <a href=\"%s\">gateway settings</a>, these settings below will be used."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:657
+#: add-ons/gateways/gateway-admin.php:264
+msgid "Choose the button text. To use an image instead, enter the full url starting with %s or %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:658
+msgid "Payment Button"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:679
+#: add-ons/gateways/gateway-admin.php:578
+msgid "Your site is not using SSL! Whilst not a requirement, if you're going to submit API information for a live %s account, we recommend you do so over a secure connection. If this is not possible, consider an alternative option of submitting your API information as covered in our %s."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:683
+#: add-ons/gateways/gateway-admin.php:582
+msgid "If you are only using testing credentials, you can display and save them safely."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateway.php:684
+#: add-ons/gateways/gateway-admin.php:583
+msgid "Show API Keys"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:45
+#: add-ons/gateways/gateways-admin.php:106
+msgid "Payment Gateway Options"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:50
+#: add-ons/gateways/gateways-admin.php:110
+msgid "Enable Quick Pay Buttons?"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:50
+#: add-ons/gateways/gateways-admin.php:110
+msgid "Only works with gateways that do not require additional payment information to be submitted (e.g. PayPal and Offline payments). If enabled, the default booking form submit button is not used, and each gateway will have a button (or image, see <a href=\"%s\">individual gateway settings</a>) which if clicked on will submit a booking for that gateway."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:51
+#: add-ons/gateways/gateways-admin.php:111
+msgid "Gateway Label"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:51
+#: add-ons/gateways/gateways-admin.php:111
+msgid "If you are not using quick pay buttons a drop-down menu will be used, with this label."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:84
+#: add-ons/gateways/gateways-admin.php:308
+msgid "Gateway activated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:85
+#: add-ons/gateways/gateways-admin.php:310
+msgid "Gateway not activated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:86
+#: add-ons/gateways/gateways-admin.php:299
+msgid "Gateway deactivated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:87
+#: add-ons/gateways/gateways-admin.php:301
+msgid "Gateway not deactivated."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:88
+#: add-ons/gateways/gateways-admin.php:334
+msgid "Gateway activation toggled."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:91
+#: add-ons/gateways/gateways-admin.php:145
+msgid "Edit Gateways"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:102
+#: add-ons/gateways/gateways-admin.php:168
+msgid "Apply"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:111
+#: add-ons/gateways/gateways-admin.php:177
+msgid "Gateway Name"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:113
+#: add-ons/gateways-legacy/gateways.transactions.php:81
+#: add-ons/gateways/gateways-admin.php:180
+#: add-ons/gateways/gateways.transactions.php:86
+msgid "Transactions"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:161
+#: add-ons/gateways/gateways-admin.php:224
+msgid "This gateway cannot be activated because it does not support multiple bookings mode."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:186
+#: add-ons/gateways/gateways-admin.php:267
+msgid "View transactions"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways-admin.php:195
+#: add-ons/gateways/gateways-admin.php:276
+msgid "No Payment gateways were found for this install."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:55
+#: add-ons/gateways/gateways.php:64
+msgid "Address"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:56
+#: add-ons/gateways/gateways.php:65
+msgid "Address Line 2"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:57
+#: add-ons/gateways/gateways.php:66
+msgid "City"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:58
+#: add-ons/gateways/gateways.php:67
+msgid "State/County"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:60
+#: add-ons/gateways/gateways.php:69
+msgid "Country"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:61
+#: add-ons/gateways/gateways.php:70
+msgid "Phone"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:63
+#: add-ons/gateways/gateways.php:72
+#: emp-install.php:313
+msgid "Company"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:89
+#: add-ons/gateways/gateways.php:105
+msgid "All transactional history associated with this booking will also be deleted."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:90
+#: add-ons/gateways/gateways.php:106
+msgid "Are you sure you want to delete? This may make your transaction history out of sync with your payment gateway provider."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:96
+#: add-ons/gateways/gateways.php:112
+msgid "Awaiting Online Payment"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:188
+#: add-ons/gateways/gateways.php:321
+msgid "Choice of payment method not recognized. If you are seeing this error and selecting a method of payment, we apologize for the inconvenience. Please contact us and we'll help you make a booking as soon as possible."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:368
+#: add-ons/gateways/gateways.php:613
+msgid "Gateway Used"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:445
+#: add-ons/gateways/gateways-admin.php:399
+msgid "Common User Fields for Gateways"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:448
+#: add-ons/gateways/gateways-admin.php:402
+msgid "In many cases, customer address information is required by gateways for verification. This section connects your custom fields to commonly used customer information fields."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:449
+#: add-ons/gateways/gateways-admin.php:403
+msgid "After creating user fields above, you should link them up in here so some gateways can make use of them when processing payments."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:452
+#: add-ons/gateways/gateways-admin.php:406
+msgid "Name (first/last)"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:452
+#: add-ons/gateways/gateways-admin.php:406
+msgid "Generated accordingly from user first/last name or full name field. If a name field isn't provided in your booking form, the username will be used instead."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:453
+#: add-ons/gateways/gateways-admin.php:407
+msgid "Uses the WordPress account email associated with the user."
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:459
+#: add-ons/gateways/gateways-admin.php:413
+#: emp-forms.php:474
+msgid "none selected"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:472
+#: add-ons/gateways/gateways-admin.php:426
+#: emp-forms.php:1418
+msgid "Save Form"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:545
+#: add-ons/gateways-legacy/gateways.php:550
+#: add-ons/gateways/gateways.php:748
+#: add-ons/gateways/gateways.php:753
+#: add-ons/multiple-bookings/multiple-bookings.php:848
+msgid "Deleted Event"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:547
+#: add-ons/gateways/gateways.php:750
+msgid "Events"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:551
+#: add-ons/gateways-legacy/gateways.transactions.php:123
+#: add-ons/gateways/gateways.php:754
+#: add-ons/gateways/gateways.transactions.php:128
+msgid "Event"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:554
+#: add-ons/gateways-legacy/gateways.transactions.php:128
+#: add-ons/gateways/gateways.php:757
+#: add-ons/gateways/gateways.transactions.php:133
+msgid "Gateway"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:555
+#: add-ons/gateways-legacy/gateways.transactions.php:125
+#: add-ons/gateways/gateways.php:758
+#: add-ons/gateways/gateways.transactions.php:130
+#: templates/printables/pdf-booking/part-header.php:13
+#: templates/printables/pdf-invoice/part-header.php:14
+msgid "Date"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:556
+#: add-ons/gateways-legacy/gateways.transactions.php:427
+#: add-ons/gateways-legacy/gateways.transactions.php:429
+#: add-ons/gateways/gateways.php:759
+#: add-ons/gateways/gateways.transactions.php:435
+#: add-ons/gateways/gateways.transactions.php:437
+msgid "Transaction ID"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.php:557
+#: add-ons/gateways-legacy/gateways.transactions.php:130
+#: add-ons/gateways/gateways.php:760
+#: add-ons/gateways/gateways.transactions.php:135
+msgid "Notes"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:124
+#: add-ons/gateways/gateways.transactions.php:129
+msgid "User"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:127
+#: add-ons/gateways/gateways.transactions.php:132
+msgid "Transaction id"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:273
+#: add-ons/gateways-legacy/gateways.transactions.php:282
+#: add-ons/gateways-legacy/gateways.transactions.php:291
+#: add-ons/gateways/gateways.transactions.php:281
+#: add-ons/gateways/gateways.transactions.php:290
+#: add-ons/gateways/gateways.transactions.php:299
+msgid "None yet"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:315
+#: add-ons/gateways/gateways.transactions.php:323
+msgid "No Transactions"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:431
+#: add-ons/gateways/gateways.transactions.php:439
+msgid "Total Paid"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:453
+#: add-ons/gateways/gateways.transactions.php:461
+msgid "Transaction deleted"
+msgstr ""
+
+#: add-ons/gateways-legacy/gateways.transactions.php:457
+#: add-ons/gateways/gateways.transactions.php:465
+msgid "Transaction could not be deleted"
+msgstr ""
+
+#: add-ons/gateways/authorize-aim/gateway.authorize.aim-admin.php:31
+msgid "Gateway Options"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:129
+#: add-ons/gateways/gateway-admin.php:135
+#: add-ons/gateways/gateway-admin.php:157
+#: add-ons/gateways/gateway-admin.php:158
+#: add-ons/gateways/gateway-admin.php:411
+#: add-ons/gateways/gateway-admin.php:462
+#: add-ons/gateways/gateway-admin.php:463
+msgid "API Keys/Notifications"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:133
+#: add-ons/gateways/gateway-admin.php:157
+#: add-ons/gateways/gateway-admin.php:462
+msgid "Test"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:151
+msgid "This is a legacy payment method, and has been discontinued by the payment provider itself, whilst it may work for the time being, we cannot guarantee when the payment gatewway provider will completely stop supporting it."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:153
+#: add-ons/gateways/gateway-admin.php:461
+msgid "Enabling"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:154
+msgid "Disabling"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:245
+#: add-ons/gateways/gateway-admin.php:331
+msgid "Settings"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:253
+#: add-ons/gateways/gateway-admin.php:258
+msgid "Only if you have not enabled quick pay buttons in your %s page."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:263
+msgid "If you have chosen to only use quick pay buttons in your %s page, this button text will be used."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:265
+msgid "QuickPay Payment Button"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:285
+msgid "Booking Actions - Payment Complete"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:293
+msgid "The message that is shown to a user when a payment is successful and booking is complete."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:297
+msgid "Once a payment is completed, users are redirected back to your site. Leave blank for the default thank you page, or add your own custom page which could contain further instructions."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:311
+msgid "If set to \"Yes\", spaces will be reserved once a user submits a booking and proceeds to payment, whilst payment is still pending."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:315
+msgid "We recommend setting this to \"Yes\" and automatically expiring upaid bookings after at least %s minutes in the %s setting below"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:315
+#: add-ons/gateways/gateway-admin.php:322
+msgid "Unpaid Bookings Expiry"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:325
+msgid "Once a booking is initially submitted, Events Manager stores a booking record in the database to identify the incoming payment. If you would like these bookings to expire after x minutes without payment confirmation, please enter a value above."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:327
+msgid "If a booking remains unpaid after this time, the booking will expire, and the payment method cancelled."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:332
+msgid "If set to 0, this booking will take its options from the %s page."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:338
+msgid "Expired Booking Action"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:346
+msgid "Once a booking has expired, decide whether to cancel or delete it."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:356
+msgid "Approvals must also be required for all bookings in your <a href=\"%s\">settings</a>."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:368
+msgid "Payment Cancellation"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:371
+msgid "If a user cancels before the payment process completes, such as by clicking the cancel/back button on the payment page (not the back button on a browser), they will be redirected to a specific page of your choosing and display a customized message."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:374
+msgid "Cancelling a payment would result in their temporary booking also being cancelled and deleted."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:378
+msgid "If left blank the user is redirected to the event or checkout page."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:413
+msgid "When Test Mode is enabled and active, the following API keys will replace those used in the %s tab and assume you are using the gateway test/sandbox features. Booking forms will display a prominent notice when this gateway is selected for payment in test mode"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:414
+msgid "Limited Test Mode Settings"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:415
+msgid "You can limit Test Mode to certain scenarios so that you can test on a live site whilst still accepting payments using live credentials for customers."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:418
+msgid "Note that this limitation will not apply in Multiple Bookigns Mode."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:419
+msgid "Enable Limited Test Mode?"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:424
+msgid "Limit to IPs"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:424
+#: add-ons/gateways/gateway-admin.php:425
+#: add-ons/gateways/gateway-admin.php:426
+#: add-ons/gateways/gateway-admin.php:440
+msgid "Limit test mode to one or more %s, separated by comma. Leave blank for no limitations."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:424
+#: add-ons/gateways/gateway-admin.php:439
+msgid "IP addresses"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:425
+msgid "Limit to Users"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:425
+#: add-ons/gateways/gateway-admin.php:440
+msgid "User IDs"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:426
+msgid "Limit to Events"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:435
+msgid "Hide Test Mode Gateway"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:436
+msgid "If %s is in Test Mode, you can choose to hide it from visitors and only display it to users that match any of the following settings."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:439
+msgid "Display only to IPs"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:439
+msgid "Display gateway in test mode only to one or more %s, separated by comma. Leave blank for no limitations."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:440
+msgid "Display only to Users"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:452
+msgid "Test Mode will only be active if any of the following conditions below are matched, otherwise Live Mode credentials will be used. For example, if limiting by IPs and Uer IDs, test mode is only enabled when the site visitor is using a matched IP"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:473
+msgid "%s is using live credentials from the %s tab, enable Test Mode for these credentials to be used instead."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:485
+msgid "%s is in Limited Test Mode, if the Limited Test Mode conditions below are matched, the following credentials will be used, otherwise Live Mode credentials are used from the %s tab."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:493
+msgid "%s is in Test Mode, the following credentials are being used for all users."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:525
+msgid "%s is in Test Mode and is using credentials from the %s tab above."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:561
+msgid "Gateway Mode"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:634
+msgid "We have verified your credentials, and a valid Webhook was set up correctly, please do not delete this webhook so that we can detect updates to a payment, such as refunds and disputes."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:638
+msgid "You do not currently have a valid Webhook assigned. This is needed for detecting updates to a payment, such as refunds and disputes. Please re-save your settings and a webhook should be automatically created for you."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:644
+msgid "If you would like to receive notifications from %s and handle events such as voided transactions, refunds and chargebacks automatically, you need to create a Webhook."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:647
+msgid "Supported webhook events: %s."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:652
+msgid "here"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:654
+msgid "You can create your webhook %1$s."
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:657
+msgid "sandbox"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:658
+msgid "production"
+msgstr ""
+
+#: add-ons/gateways/gateway-admin.php:660
+msgid "You can create your webhook in %1$s or %2$s environments."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:187
+msgid "%s will only work if your site is using SSL and has been disabled. Only admins will see this message."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:251
+msgid "Your IP matches a Limited Test Mode filter."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:254
+msgid "Your user ID matches a Limited Test Mode filter."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:257
+msgid "This event matches a Limited Test Mode filter."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:259
+msgid "This gateway is in Limited Test Mode, meaning any visitors matching limit settings will see this message. You are currently in test mode because:"
+msgstr ""
+
+#: add-ons/gateways/gateway.php:265
+msgid "Visitors who do not match a limited condition will not see this message and will continue to use this gateway in Live Mode."
+msgstr ""
+
+#: add-ons/gateways/gateway.php:268
+msgid "This gateway is currently in Test Mode, only test payment methods can be used."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:112
+msgid "Unpaid Booking Expiry"
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:112
+msgid "If a gateway supports it and expiry time is set to 0, the following default expiry time will be used. You can disable individual gateways by setting the expiry action setting to 'none'."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:152
+msgid "You have enabled %1$s in your %2$s page, however you have enabled a gateway that is not button-enabled. %1$s will be disabled whilst these gateways remain active."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:240
+msgid "Legacy Gateway"
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:258
+msgid "Live Mode"
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:260
+msgid "Limited Test Mode"
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:262
+#: add-ons/gateways/gateways.transactions.php:244
+msgid "Test Mode"
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:342
+msgid "Gateways activated."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:350
+msgid "Gateways deactivated."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:358
+msgid "Gateways now in Live Mode."
+msgstr ""
+
+#: add-ons/gateways/gateways-admin.php:366
+msgid "Gateways now in Test Mode."
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:10
+msgid "Static"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:32
+msgid "No Action"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:33
+msgid "Link to maps.google.com and center on coordinates"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:34
+msgid "Link to maps.google.com based on location name and address"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:35
+msgid "Link to maps.google.com based on only address"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:36
+msgid "Load dynamic map"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:37
+msgid "Load embedded map"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:40
+msgid "Choose what happens when a visitor clicks on a static map."
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:41
+msgid "If your static maps have a click action, hovering over a static map will show this text to the visitor."
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:41
+msgid "Click for interactive map"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:43
+msgid "Enable static map caching?"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:43
+msgid "Store a temporary copy of each map image on your own server. We strongly recommend you read our %s page about this so you ensure you are withing Google Terms of Service"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:44
+msgid "Static map cache expiry days"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:44
+msgid "Enter the amount of days a cached map image should remain on your server, we recommend a maximum of 30 days so it adheres to Google's Terms of Service"
+msgstr ""
+
+#: add-ons/google-maps/google-static-maps-admin.php:48
+msgid "Static cached maps require a server API and secret key, please see our %s page for instructions on obtaining one."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings-admin.php:21
+#: add-ons/manual-transactions/manual-bookings-admin.php:32
+msgid "Manual Bookings"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings-admin.php:27
+msgid "Allow event admins to manually add bookings to their events on behalf of attendees."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:30
+msgid "Add Booking"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:38
+msgid "add booking"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:72
+#: add-ons/manual-transactions/manual-bookings.php:77
+msgid "Add Booking For &quot;%s&quot;"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:157
+#: add-ons/manual-transactions/manual-bookings.php:159
+#: add-ons/manual-transactions/manual-bookings.php:166
+#: add-ons/manual-transactions/manual-bookings.php:168
+msgid "Manual booking."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:185
+msgid "Add another booking"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:248
+msgid "Select a user (type to search), or enter a new one below."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:276
+msgid "Amount Paid"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:282
+msgid "Fully Paid"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:284
+msgid "If you check this as fully paid, and leave the amount paid blank, it will be assumed the full payment has been made."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:290
+msgid "Confirm Booking?"
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:292
+msgid "If you check this, the booking will be marked as confirmed automatically."
+msgstr ""
+
+#: add-ons/manual-transactions/manual-bookings.php:298
+msgid "Override any restrictions to ticket availability and limits (this may lead to overbooking)."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-booking.php:139
+msgid "There was an error validating your bookings, please see the errors below:"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-booking.php:340
+#: add-ons/multiple-bookings/multiple-booking.php:345
+msgid "Multiple Events"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:18
+msgid "Cart"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:18
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:16
+#: add-ons/multiple-bookings/multiple-bookings.php:223
+#: add-ons/multiple-bookings/multiple-bookings.php:246
+#: add-ons/multiple-bookings/multiple-bookings.php:540
+msgid "Checkout"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:19
+msgid "This page corresponds to the <strong>Events Manager</strong> %s page. Its content will be overriden by Events Manager, although if you include the word CONTENTS (exactly in capitals) and surround it with other text, only CONTENTS will be overwritten."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:28
+msgid "Since you are in Multiple Booking Mode, these emails will only be sent in these specific circumstances :"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:30
+msgid "You have enabled the option to email event owners in the %s section below."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:31
+msgid "When modifications are made to individual bookings which would normally trigger an email to be sent to the attendee."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:48
+msgid "Multiple Bookings Mode enables your visitors to make bookings follow a flow similar to that of a shopping cart, meaning users can book multiple events and pay for them in one go."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:49
+msgid "More about %s."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:53
+msgid "Enable Multiple Bookings Mode?"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:57
+msgid "Checkout Page"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:63
+msgid "This page will be where the user reviews their bookings, enters additional information (such as user registration info) and proceeds with payment."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:64
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:80
+msgid "Please <a href=\"%s\">add a new page</a> and assign it here. This is required for Multiple Bookings Mode to work."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:70
+msgid "Redirect To Checkout on Booking?"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:70
+msgid "It set to yes, when a booking has been added to the cart, the user will be redirected to the checkout page. Whilst redirecting the confirmation message below will also be shown, you may also want to modify that too let them know they are being redirected."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:71
+msgid "Checkout Page Booking Form"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:71
+msgid "This form will be shown on the checkout page, which should include user fields you may want when registering new users. Any non-user fields will be added as supplementary information to every booking, if you have identical Field IDs on the individual event booking form, that field value will be saved to the individual booking instead."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:74
+msgid "Cart Page"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:79
+msgid "This page will display the events the user has chosen to book and allow them to edit their bookings before checkout."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:85
+msgid "Successfully Added Message"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:85
+msgid "A booking was successfull added to the bookings cart."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:86
+msgid "Loading Cart Contents"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:86
+msgid "If caching plugins are used, cart contents are loaded after a page load and this text is shown whilst loading."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:87
+msgid "Event Already Booked"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:87
+msgid "This event has already been added to the cart and cannot be added twice."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:88
+msgid "No Bookings"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:88
+msgid "User has not booked any events yet, cart is empty."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:89
+msgid "Empty Cart Warning"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:89
+msgid "Warning after the \"empty cart\" button is clicked."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:90
+msgid "Checkout Form Button"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:90
+msgid "The text shown in the checkout page form."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:120
+msgid "When users make a booking in Multiple Bookings Mode these email templates will be used instead of the ones in the %s section. These emails summarize one or more bookings made via the checkout page."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:121
+msgid "Any direct event booking (such as a manual booking by admins) or modification to an individual event booking will still trigger individual email templates from the %s section."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:122
+msgid "When administrators modify a set of multiple bookings rather than individual events, these templates will be used to notify the attendee."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:128
+msgid "Email event owners?"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:128
+msgid "If enabled, additional emails will be sent to administrators and event owners for EVERY event booked based on the above %s settings."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-admin.php:134
+msgid "Admin Email"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:13
+#: add-ons/multiple-bookings/multiple-bookings.php:537
+msgid "Event Bookings Cart"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:17
+#: add-ons/multiple-bookings/multiple-bookings.php:541
+msgid "View Cart"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:18
+#: add-ons/multiple-bookings/multiple-bookings.php:542
+msgid "No events booked yet"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:20
+msgid "Display a shopping cart widget for currently booked events to check out."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:56
+msgid "Title"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:60
+msgid "List item format"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:64
+msgid "Loading text"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings-widget.php:68
+msgid "No bookings text"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:213
+msgid "Sorry for the inconvenience, but we are having technical issues adding your bookings, please contact an administrator about this issue."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:297
+msgid "Could not remove booking due to an unexpected error."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:630
+msgid "Total (Gross)"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:645
+msgid "Further Adjustments"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:651
+msgid "Total Adjusted Price"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:652
+msgid "price estimate is calculated by proportionally applying discounts from the main booking"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:657
+msgid "View Main Booking"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:682
+msgid "This booking makes part of multiple bookings made at once."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:683
+msgid "Since this is part of multiple booking, you can also change these values for all individual bookings."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:685
+msgid "This booking contains multiple individual bookings made at once."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:687
+msgid "You can sync this modification with all other related bookings."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:690
+msgid "Make these changes to all bookings?"
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:806
+msgid "This single booking is part of a larger booking made by this person at once. <a href=\"%s\">View Main Booking</a>."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:810
+msgid "This booking contains a set of bookings made by this person. To edit particular bookings click on the relevant links below."
+msgstr ""
+
+#: add-ons/multiple-bookings/multiple-bookings.php:842
+msgid "Multiple Bookings"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:39
+msgid "Printables (PDFs, Invoices, Tickets etc.)"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:45
+msgid "You can include invoices and tickets in PDF attachments which are added automatically to their confirmation email. Below are options on what to send, and some customization options for your headers."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:82
+msgid "Site Admins : You have a template folder in %s containing custom fonts, %s to load newly added font .ttf or .otf files."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:86
+msgid "Default Font"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:87
+msgid "Enable Font Subsetting?"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:87
+msgid "Font subsetting will drastically reduce ths size of your PDF, especially when using fonts with special character support, but will be harder to edit in other applications."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:89
+msgid "Save your settings to view font options."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:93
+msgid "Include Invoices in Emails?"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:93
+msgid "A PDF will be attached in the automated confirmation email containing an invoice."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:94
+msgid "Include Tickets in Emails?"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:94
+msgid "A PDF will be attached in the automated confirmation email containing a booking summary as well as individual tickets. Enable QR codes in the Ticket Scanning optinos to include them in your tickets."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:96
+msgid "Invoice Number Format"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:96
+msgid "You can modify the format of your invoice numbers such as adding prefixes, mixing numbers etc."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:116
+msgid "This image will be displayed on top of your invoice, leave blank to use text defined below instead."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:120
+msgid "Alternate Logo Text"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:120
+msgid "If no logo is defined, this text will be used instead as the heading of your invoices and tickets."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:121
+msgid "Billing Details Text"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:121
+msgid "This is dynamic information generated by your customer and obtained during bookings or in their user profile. HTML is accepted, line breaks are respected."
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:122
+msgid "Business Details Text"
+msgstr ""
+
+#: add-ons/printables/printables-admin.php:122
+msgid "This is your business information and appears on both invoices and ticket bookings. HTML is accepted, line breaks are respected."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:21
+#: add-ons/rsvp/rsvp-admin.php:89
+msgid "Default policy deadline"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:51
+msgid "Enable a frontend RSVP area which can be easily accessed with a special link by booking guests who can confirm that booking before attending. This sort of front-end manager is especially convenient for fast confirmation such as from users clicking on an email or SMS via their phone."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:57
+msgid "RSVP Endpoint"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:61
+msgid "This is the path used to define an custom url where you can access the RSVP manager which will be located under %s. User letters, numbers and dashes and underscores are permitted. You can output a link to unique booking confirmations using the %s placeholder in your booking email formats (such as for your emails)."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:63
+msgid "RSVP Endpiont"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:64
+msgid "Require user to log in before being able to confirm a booking. Note that if you have guest bookings enabled, this setting will not apply for bookings belonging to a non-registered user."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:65
+msgid "Require login?"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:72
+msgid "If a booking has an approved/confirmed status but not confirmed by the user via RSVP, enabling an RSVP policy can open bookings for new bookings and subsequently cancel the booking of the unconfirmed user."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:77
+#: add-ons/rsvp/rsvp-policies-events.php:88
+msgid "RSVP Policy"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:86
+msgid "Default RSVP cut-off time."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:91
+#: add-ons/rsvp/rsvp-policies-events.php:121
+#: add-ons/rsvp/rsvp-policies-events.php:132
+#: add-ons/rsvp/rsvp-policies.php:184
+msgid "Open"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:91
+#: add-ons/rsvp/rsvp-policies-events.php:133
+#: add-ons/rsvp/rsvp-policies.php:185
+msgid "RSVPing attendance is optional, but no action is taken in any case."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:92
+#: add-ons/rsvp/rsvp-policies-events.php:120
+#: add-ons/rsvp/rsvp-policies-events.php:136
+#: add-ons/rsvp/rsvp-policies.php:178
+msgid "Flexible"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:92
+#: add-ons/rsvp/rsvp-policies-events.php:137
+msgid "Bookings are not cancelled, but spaces available for booking. If booked, unconfirmed bookings get cancelled."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:93
+#: add-ons/rsvp/rsvp-policies-events.php:119
+#: add-ons/rsvp/rsvp-policies-events.php:140
+#: add-ons/rsvp/rsvp-policies.php:172
+msgid "Strict"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:93
+#: add-ons/rsvp/rsvp-policies-events.php:141
+msgid "Bookings are cancelled after cutoff time is reached."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:95
+msgid "Default cancellation policy"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:97
+msgid "Enable policies by event?"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:97
+msgid "Events can override the default policy type or disable it entirely."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:98
+msgid "Enable policy by default?"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-admin.php:98
+msgid "Events that do not specifically choose to enable or disable this feature will inherit the following setting."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies-events.php:90
+msgid "When your event is fully booked, you can enable an RSVP policy so that users that have not confirmed their booking within a certain timeframe of the event start risk having their booking cancelled or left open to cancellation if someone else wants to book."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies-events.php:91
+msgid "If left to default setting, if RSVP policy or policy type is enabled or disabled site-wide the event will dynamically inherit those settings."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies-events.php:110
+#: add-ons/rsvp/rsvp-policies-events.php:130
+msgid "%s (Site Default)"
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies.php:49
+msgid "This event has a %s RSVP policy which will activate once fully booked."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies.php:52
+msgid "This event is currently fully booked and enforcing a %s RSVP policy."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies.php:58
+msgid "This event has a %s RSVP policy which will activate on %s once fully booked."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies.php:173
+msgid "Any unconfirmed or declined bookings will be cancelled automatically on %s."
+msgstr ""
+
+#: add-ons/rsvp/rsvp-policies.php:179
+msgid "Any unconfirmed bookings made before %s will be cancelled if any new bookings are made."
+msgstr ""
+
+#: add-ons/rsvp/rsvp.php:20
+msgid "You have confirmed your booking!"
+msgstr ""
+
+#: add-ons/rsvp/rsvp.php:23
+msgid "You have already confirmed your booking."
+msgstr ""
+
+#: add-ons/rsvp/rsvp.php:32
+msgid "Your booking has been cancelled."
+msgstr ""
+
+#: add-ons/rsvp/rsvp.php:35
+msgid "You have already cancelled your booking."
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:99
+msgid "%s before the event starts."
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:101
+msgid "%s after the event starts."
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:106
+msgid "Cancellation"
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:108
+msgid "You can override the default cancellation policy for this event, or leave the default rules in place. Additionally you can disable cancellation entirely for this specific event even if cancellation is generally permitted."
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:111
+msgid "The current default setting is : %s"
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:122
+msgid "Cancellation Cut-off"
+msgstr ""
+
+#: add-ons/toolbox/cancellation.php:125
+msgid "%s hours before the event starts."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:13
+#: add-ons/toolbox/limits-admin.php:26
+msgid "Event Submission Limits"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:17
+msgid "You can impose limits on how many events a user can submit, including how recurrences are limited and considered within the limitaitons."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:19
+msgid "Please note that if you allow guest event submissions, limitations are checked against the submitted email using the general limits as well as the guest default user role you assigned in the event submission settings section above."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:21
+msgid "This is not a secure way to limit event submissions, since a guest user can potentially use multiple different emails."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:37
+#: add-ons/toolbox/limits-admin.php:55
+msgid "Daily"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:38
+#: add-ons/toolbox/limits-admin.php:56
+msgid "Weekly"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:39
+#: add-ons/toolbox/limits-admin.php:57
+msgid "Monthly"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:40
+#: add-ons/toolbox/limits-admin.php:58
+msgid "Recurrences"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:40
+msgid "The maximum number of recurrences that can occur when submitting a single recurring event."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:41
+msgid "Recurring events count as"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:41
+msgid "Recurrences can count as a single event towards submission limits, or as the amount of recurrences created by the recurring event. We recommend counting recurrences as single events and throttling how many recurrences can be created in one submission, since the individual recurrences are not created until an event is published/approved."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:41
+msgid "One event"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:41
+msgid "Multiple events"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:45
+msgid "Role-Specific Limits"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:46
+msgid "The following settings apply to each specific role a user belongs to. These settings can override the general settings according to your preference settings below. Leave blank to default to the general settings, or 0 to remove a limit."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:50
+msgid "What limit takes precedence?"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:50
+msgid "When merging general limits with user-specific role limits, you can choose whether the highest or lowest limit takes precedence. Number 0 means no limit and therefore is considered the highest number."
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:50
+msgid "Lowest"
+msgstr ""
+
+#: add-ons/toolbox/limits-admin.php:50
+msgid "Highest"
+msgstr ""
+
+#: add-ons/toolbox/limits.php:115
+msgid "You have reached your monthly limit of event submissions."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:119
+msgid "You can create up to %d events this month."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:127
+msgid "You have reached your weekly limit of event submissions."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:131
+msgid "You can create up to %d events this week."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:139
+msgid "You have reached your daily limit of event submissions."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:143
+msgid "You can create up to %d events today."
+msgstr ""
+
+#: add-ons/toolbox/limits.php:158
+msgid "You are trying to create %1$d recurrences with this event. You can create up to %2$d recurrences in a single recurring event."
+msgstr ""
+
+#: add-ons/user-fields.php:251
+#: add-ons/user-fields.php:253
+#: templates/bookings-manager/part-booking.php:41
+msgid "n/a"
+msgstr ""
+
+#: add-ons/user-fields.php:330
+msgid "Further Information"
+msgstr ""
+
+#: add-ons/user-fields.php:446
+msgid "User Fields"
+msgstr ""
+
+#: add-ons/user-fields.php:449
+msgid "Registration fields are only shown to guest visitors. If you add new fields here and save, they will then be available as custom registrations in your bookings editor, and this information will be accessible and editable on each user <a href=\"%s\">profile page</a>."
+msgstr ""
+
+#: add-ons/user-fields.php:450
+msgid "<strong>Important:</strong> When editing this form, to make sure your current user information is displayed, do not change their field names."
+msgstr ""
+
+#: add-ons/waitlists/em-waitlist-booking.php:137
+msgid "unlimited"
+msgstr ""
+
+#: add-ons/waitlists/em-waitlist-booking.php:142
+msgid "expired"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:22
+#: add-ons/waitlists/waitlists-admin.php:136
+msgid "Waitlists"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:28
+msgid "You can enable waiting lists for some or all of your events, allowing users to sign up for a waiting list and if a ticket they are ellegible for frees up, they have the opportunity to book it."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:29
+msgid "If a ticket frees up that cannot be booked by the first wait-listed booking in line, the next available wait-listed booking will be allowed to bok that specific ticket."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:35
+msgid "You can customize the email templates sent to users who sign up to the waitlists in the %s tab."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:42
+msgid "Waiting Lists"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:46
+msgid "Allow guest reservations?"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:46
+msgid "Allow users to join the waiting list supplying only their name and email without logging in. If a booking requires a registered user (such as member-only tickets, or members must register) then this setting will not have any effect."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:47
+#: add-ons/waitlists/waitlists-admin.php:102
+msgid "Restrict how many spaces someone can reserve, wait-listed bookings will remain in front of the queue until the required number of spaces free up."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:48
+msgid "Restrict how many spaces events will have availble for waitlisting, which can be overriden by event settings if you allow it in these settings.."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:49
+msgid "Waitlist approval expiry"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:49
+#: add-ons/waitlists/waitlists-events.php:217
+msgid "Hours until an wait-listed booking can keep their reserved spot once it becomes available to them. If a booking is not completed within that time-frame the reservation is cancelled and the next wait-listed booking is allowed to book."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:53
+msgid "Event-Specific Settings"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:54
+msgid "Above respective forms such as the waiting list form or when booking a wait-listed event, you can customize the text to give more information to the user about booking a wait-listed event"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:58
+msgid "Allow event-specific settings?"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:58
+msgid "You can override the default settings on a per-event basis, including exclusion of certain tickets for waitlisting, if enabled."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:62
+msgid "Disabled by default"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:63
+msgid "Enabled by default"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:64
+msgid "Enabled for all"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:66
+msgid "Event waitlist option"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:66
+msgid "You can choose whether to enable waitlists as an option per event, or enable waitlists for all your events. If you choose to enable by default then all events that do not specifically have waitlists disabled will display a waitlist."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:67
+msgid "Allow ticket exclusions?"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:67
+msgid "You can allow event creators to exclude tickets from becoming available or calculated towards waitlists."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:71
+msgid "Heading Content"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:72
+msgid "Above waitlist-related content such as when booking a wait-listed event or viewing a previously made waitlist reservation, you can customize the text to give more information to the user about booking a wait-listed event. HTML is accepted."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:78
+msgid "Login text"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:78
+msgid "Displayed when a user needs to log in to access the waiting lists."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:79
+#: add-ons/waitlists/waitlists-admin.php:95
+msgid "Already waiting"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:79
+msgid "If the user already has a waiting list application."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:80
+msgid "Booking form"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:80
+msgid "If a wait-listed booking is approved and user can book their previously reserved seats. This is displayed above the regular event booking form."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:81
+#: add-ons/waitlists/waitlists-admin.php:124
+#: add-ons/waitlists/waitlists-bookings-admin.php:24
+#: add-ons/waitlists/waitlists-events.php:184
+#: add-ons/waitlists/waitlists-tickets.php:24
+msgid "Waitlist"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:81
+msgid "If a waitlist is active and the user can apply to the waitlist, this is displayed above the waitlist form."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:82
+#: add-ons/waitlists/waitlists-admin.php:97
+msgid "Cancelled"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:82
+msgid "If the user previously cancelled their waitlist booking."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:83
+msgid "Expired"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:83
+msgid "If the waitlist reservation expired."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:84
+#: add-ons/waitlists/waitlists-admin.php:98
+msgid "Waitlist Full"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:84
+msgid "When the waitlist is full."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:88
+msgid "Feedback Messages"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:89
+msgid "These are messages provided to the user during the process of joining a waitlist."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:94
+msgid "Reservation confirmed"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:94
+msgid "When a waitlist has been successfully joined."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:95
+msgid "If a user attempts to join a waitlst they joined previously."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:96
+msgid "Already waiting (guest)"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:96
+msgid "If a guest user (not logged in) attempts to join a waitlst they joined previously. This is based on a duplicate email being used."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:97
+msgid "When a user cancels their waitlist booking."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:98
+msgid "When the limit of allowed spaces in a waitlist are reached, those attempting to join will receive this message."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:99
+msgid "Booking limit reached"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:99
+msgid "If a user attempts to book more than the allowed spaces per booking."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:100
+msgid "More than available"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:100
+msgid "If a user attempts to book more spaces than are currently available (for example, if someone books just before they do with a nearly full waitlist)."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:102
+msgid "Log in first"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:124
+msgid "Additionally, you can also use %s placeholders."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:143
+msgid "When a user has applied to a waitlist, they will receive an email to confirm their application, and also a second email if they become elegible to complete a real booking."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:144
+msgid "Additionally, if their booking expires, they will receive a custom email below. Other emails such as a regular cancellation or rejection of the booking will use the default email templates."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:154
+msgid "This will be sent to the person when they first apply for the waitlist."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:164
+msgid "When a wait-listed booking becomes available for making an actual booking, this email is sent."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:173
+msgid "Expired Booking"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-admin.php:174
+msgid "If you enable an expiry time for wait-listed reservations, if a booking is not made in time, the reservation expires and this email is sent."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings-admin.php:48
+msgid "Re-Approve"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings-admin.php:61
+msgid "Number of spaces reserved when new spaces become available."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings-admin.php:62
+msgid "Waitlist spaces"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings-admin.php:65
+msgid "Number of spaces approved to make a booking from recently available spaces."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings-admin.php:66
+msgid "Waitlist approved"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings.php:398
+#: templates/waitlists/button.php:15
+msgid "Waitlist Joined!"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings.php:399
+msgid "Joining Waitlist..."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings.php:410
+msgid "Cancel Waitlist Reservation"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-bookings.php:440
+msgctxt "Reserve a space"
+msgid "Book"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:186
+msgid "When your event is fully booked, you can enable a waitlist so people can sign up for when spaces become available due to cancellations."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:187
+msgid "An event is considered fully booked if all available spaces are booked for an event. This is different from events where bookings are closed, meaning that spaces are still available but there are no more available tickets due to date or other restrictions."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:206
+msgid "Restrict how many spaces events will have availble for waitlisting."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:206
+msgid "Leave blank for default %d, 0 for no limit."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:211
+msgid "Leave blank for default %s, 0 for no limit."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:214
+msgid "Waitlist Approval Expiry"
+msgstr ""
+
+#: add-ons/waitlists/waitlists-events.php:218
+msgid "Leave blank for default (%d hours), 0 for no limit."
+msgstr ""
+
+#: add-ons/waitlists/waitlists-tickets.php:61
+msgid "Exclude from Waitlist?"
+msgstr ""
+
+#: emp-admin.php:24
+msgid "Enable Logging?"
+msgstr ""
+
+#: emp-admin.php:24
+msgid "If enabled, a folder called %s will be created. Please ensure that your wp-contents folder is writable by the server."
+msgstr ""
+
+#: emp-forms.php:18
+#: emp-forms.php:25
+msgid "Forms Editor"
+msgstr ""
+
+#: emp-forms.php:26
+msgid "On this page you can create/edit various forms used within Events Manager Pro."
+msgstr ""
+
+#: emp-forms.php:41
+msgid "PRO Booking Form Options"
+msgstr ""
+
+#: emp-forms.php:45
+msgid "Default required field error"
+msgstr ""
+
+#: emp-forms.php:45
+msgid "This is the message shown by default when a required booking form field is left empty, %s will be replaced by the field label."
+msgstr ""
+
+#: emp-forms.php:46
+msgid "Show profile fields to logged in users?"
+msgstr ""
+
+#: emp-forms.php:46
+msgid "When logged in, users usually don't see their profile fields, with this enabled, users will be able to update their profile fields alongside their booking. This is particularly useful if the user is missing key information."
+msgstr ""
+
+#: emp-forms.php:47
+msgid "Show username profile fields?"
+msgstr ""
+
+#: emp-forms.php:47
+msgid "Displays a non-editable field with the username of the currently logged in user. Usernames cannot be edited/changed in the booking form."
+msgstr ""
+
+#: emp-forms.php:48
+msgid "Show name profile fields?"
+msgstr ""
+
+#: emp-forms.php:48
+#: emp-forms.php:49
+msgid "If fields are editable users will be able to change their %s whilst making a booking."
+msgstr ""
+
+#: emp-forms.php:49
+msgid "Show email profile fields?"
+msgstr ""
+
+#: emp-forms.php:50
+msgid "Make profile fields editable?"
+msgstr ""
+
+#: emp-forms.php:50
+msgid "If profile fields are set to show to logged in users, you can also choose whether or not to make these fields editable or just for viewing reference."
+msgstr ""
+
+#: emp-forms.php:684
+msgid "You must also add an end date."
+msgstr ""
+
+#: emp-forms.php:707
+#: emp-forms.php:1157
+msgid "You must provide a start date."
+msgstr ""
+
+#: emp-forms.php:725
+#: emp-forms.php:1224
+msgid "You must provide an end time."
+msgstr ""
+
+#: emp-forms.php:729
+#: emp-forms.php:735
+#: emp-forms.php:1212
+msgid "Please use the time picker provided to select the appropriate time format."
+msgstr ""
+
+#: emp-forms.php:741
+#: emp-forms.php:1236
+msgid "You must provide a start time."
+msgstr ""
+
+#: emp-forms.php:930
+msgid "Label"
+msgstr ""
+
+#: emp-forms.php:931
+msgid "Field ID"
+msgstr ""
+
+#: emp-forms.php:931
+msgid "DO NOT change these values if you want to keep your field settings associated with previous booking fields."
+msgstr ""
+
+#: emp-forms.php:932
+msgid "Type"
+msgstr ""
+
+#: emp-forms.php:933
+msgid "Required"
+msgstr ""
+
+#: emp-forms.php:946
+msgid "Select Type"
+msgstr ""
+
+#: emp-forms.php:948
+msgid "Customizable Fields"
+msgstr ""
+
+#: emp-forms.php:966
+msgid "Registration Fields"
+msgstr ""
+
+#: emp-forms.php:974
+msgid "Custom Registration Fields"
+msgstr ""
+
+#: emp-forms.php:990
+#: templates/multiple-bookings/cart-table.php:42
+msgid "remove"
+msgstr ""
+
+#: emp-forms.php:991
+msgid "options"
+msgstr ""
+
+#: emp-forms.php:999
+#: emp-forms.php:1246
+msgid "Options"
+msgstr ""
+
+#: emp-forms.php:1003
+#: emp-forms.php:1250
+msgid "Available options, one per line."
+msgstr ""
+
+#: emp-forms.php:1008
+msgid "Use Default?"
+msgstr ""
+
+#: emp-forms.php:1012
+msgid "If checked, the first value above will be used."
+msgstr ""
+
+#: emp-forms.php:1016
+msgid "Default Text"
+msgstr ""
+
+#: emp-forms.php:1018
+msgid "Select ..."
+msgstr ""
+
+#: emp-forms.php:1020
+msgid "Shown when a default value isn't selected, selected by default."
+msgstr ""
+
+#: emp-forms.php:1025
+#: emp-forms.php:1075
+#: emp-forms.php:1105
+#: emp-forms.php:1184
+#: emp-forms.php:1255
+#: emp-forms.php:1287
+#: emp-forms.php:1312
+#: emp-forms.php:1346
+msgid "Tip Text"
+msgstr ""
+
+#: emp-forms.php:1029
+#: emp-forms.php:1079
+#: emp-forms.php:1109
+#: emp-forms.php:1188
+#: emp-forms.php:1259
+#: emp-forms.php:1291
+#: emp-forms.php:1316
+#: emp-forms.php:1350
+msgid "Will appear next to your field label as a question mark with a popup tip bubble."
+msgstr ""
+
+#: emp-forms.php:1034
+#: emp-forms.php:1063
+#: emp-forms.php:1264
+#: emp-forms.php:1296
+#: emp-forms.php:1328
+#: emp-forms.php:1362
+#: emp-forms.php:1396
+msgid "Error Message"
+msgstr ""
+
+#: emp-forms.php:1039
+#: emp-forms.php:1068
+#: emp-forms.php:1269
+msgid "This error will show if a value isn't chosen."
+msgstr ""
+
+#: emp-forms.php:1040
+#: emp-forms.php:1069
+#: emp-forms.php:1121
+#: emp-forms.php:1133
+#: emp-forms.php:1145
+#: emp-forms.php:1157
+#: emp-forms.php:1200
+#: emp-forms.php:1212
+#: emp-forms.php:1224
+#: emp-forms.php:1236
+#: emp-forms.php:1270
+#: emp-forms.php:1302
+#: emp-forms.php:1334
+#: emp-forms.php:1368
+#: emp-forms.php:1401
+msgid "Default:"
+msgstr ""
+
+#: emp-forms.php:1050
+msgid "Content"
+msgstr ""
+
+#: emp-forms.php:1052
+msgid "This html will be displayed on your form, the label for this field is used only for reference purposes."
+msgstr ""
+
+#: emp-forms.php:1088
+msgid "Date Range?"
+msgstr ""
+
+#: emp-forms.php:1092
+msgid "If selected, this field will also have an end-date."
+msgstr ""
+
+#: emp-forms.php:1096
+#: emp-forms.php:1175
+msgid "Separator"
+msgstr ""
+
+#: emp-forms.php:1100
+#: emp-forms.php:1179
+msgid "This text will appear between the two date fields if this is a date range."
+msgstr ""
+
+#: emp-forms.php:1114
+#: emp-forms.php:1192
+msgid "Error Messages"
+msgstr ""
+
+#: emp-forms.php:1115
+#: emp-forms.php:1194
+msgid "Field Required"
+msgstr ""
+
+#: emp-forms.php:1120
+#: emp-forms.php:1199
+msgid "This error will show this field is required and no value is entered."
+msgstr ""
+
+#: emp-forms.php:1127
+#: emp-forms.php:1206
+msgid "Incorrect Formatting"
+msgstr ""
+
+#: emp-forms.php:1132
+msgid "This error will show if an incorrect date format is used."
+msgstr ""
+
+#: emp-forms.php:1133
+msgid "Please use the date picker provided to select the appropriate date format."
+msgstr ""
+
+#: emp-forms.php:1139
+msgid "End date required"
+msgstr ""
+
+#: emp-forms.php:1144
+msgid "This error will show if the field is a date-range and no end date is selected."
+msgstr ""
+
+#: emp-forms.php:1145
+msgid "You must provide an end date."
+msgstr ""
+
+#: emp-forms.php:1151
+msgid "Start date required"
+msgstr ""
+
+#: emp-forms.php:1156
+msgid "This error will show if the field is a date-range and no start date is selected."
+msgstr ""
+
+#: emp-forms.php:1167
+msgid "Time Range?"
+msgstr ""
+
+#: emp-forms.php:1171
+msgid "If selected, this field will also have an end-time."
+msgstr ""
+
+#: emp-forms.php:1211
+msgid "This error will show if an incorrect time format is used."
+msgstr ""
+
+#: emp-forms.php:1218
+msgid "End time required"
+msgstr ""
+
+#: emp-forms.php:1223
+msgid "This error will show if the field is a time-range and no end time is selected."
+msgstr ""
+
+#: emp-forms.php:1230
+msgid "Start time required"
+msgstr ""
+
+#: emp-forms.php:1235
+msgid "This error will show if the field is a time-range and no start time is selected."
+msgstr ""
+
+#: emp-forms.php:1280
+msgid "Checked by default?"
+msgstr ""
+
+#: emp-forms.php:1301
+msgid "This error will show if this box is not checked."
+msgstr ""
+
+#: emp-forms.php:1321
+#: emp-forms.php:1355
+msgid "Regex"
+msgstr ""
+
+#: emp-forms.php:1324
+#: emp-forms.php:1358
+msgid "By adding a regex expression, you can limit the possible values a user can input, for example the following only allows numbers: "
+msgstr ""
+
+#: emp-forms.php:1333
+#: emp-forms.php:1367
+msgid "If the regex above does not match this error will be displayed."
+msgstr ""
+
+#: emp-forms.php:1382
+msgid "Site Key"
+msgstr ""
+
+#: emp-forms.php:1385
+#: emp-forms.php:1392
+msgid "Required, get your keys <a href=\"%s\">here</a>"
+msgstr ""
+
+#: emp-forms.php:1389
+msgid "Secret Key"
+msgstr ""
+
+#: emp-forms.php:1400
+msgid "This error will show if the captcha is not correct."
+msgstr ""
+
+#: emp-forms.php:1407
+msgid "hide options"
+msgstr ""
+
+#: emp-forms.php:1417
+msgid "Add booking field"
+msgstr ""
+
+#: emp-install.php:260
+msgid "Join Waitlist"
+msgstr ""
+
+#: emp-install.php:261
+msgid "Please log in to access the waitlist."
+msgstr ""
+
+#: emp-install.php:268
+msgid "You have been added to the waitlist. You are #_WAITLIST_BOOKING_POSITION in line. You will be emailed if a ticket becomes available for booking, you will have #_WAITLIST_EXPIRY hours to make a booking before it is released to the next person in the list."
+msgstr ""
+
+#: emp-install.php:269
+msgid "You are already on the waitlist, you are position #_WAITLIST_BOOKING_POSITION out of #_WAITLIST_WAITING. You will be notified by email if a space becomes available."
+msgstr ""
+
+#: emp-install.php:270
+msgid "You are already on the waitlist, You will be notified by email if a space becomes available."
+msgstr ""
+
+#: emp-install.php:271
+#: templates/formats/waitlists_text_full.php:6
+msgid "There are no more spaces left available on the waitlist. Please check back later, as spaces may become available."
+msgstr ""
+
+#: emp-install.php:272
+msgid "You cannot reserve more than #_WAITLIST_BOOKING_LIMIT spaces on the waitlist."
+msgstr ""
+
+#: emp-install.php:273
+msgid "There are not enough available spaces on the waitlist, only #_WAITLIST_AVAILABLE space(s) available."
+msgstr ""
+
+#: emp-install.php:275
+#: templates/formats/waitlists_text_cancelled.php:2
+msgid "You have cancelled your waitlist reservation for this event."
+msgstr ""
+
+#: emp-install.php:275
+#: templates/formats/waitlists_text_cancelled.php:6
+msgid "Thank you for cancelling your waitlist reservation, so that others can have an opportunity to attend the event!"
+msgstr ""
+
+#: emp-install.php:282
+msgid "Waitlist Confirmation"
+msgstr ""
+
+#: emp-install.php:284
+msgid "Waitlist Approved, Book Now!"
+msgstr ""
+
+#: emp-install.php:286
+msgid "Waitlist Booking Expired"
+msgstr ""
+
+#: emp-install.php:288
+msgid "Waitlist Booking Cancelled"
+msgstr ""
+
+#: emp-install.php:303
+msgid "Please fill in the field: %s"
+msgstr ""
+
+#: emp-install.php:326
+msgid "Pay With"
+msgstr ""
+
+#: emp-install.php:331
+msgid "Please wait whilst you are redirected to PayPal to proceed with payment."
+msgstr ""
+
+#: emp-install.php:335
+msgid "Thank you for your payment. Your transaction has been completed, and a receipt for your purchase has been emailed to you along with a separate email containing account details to access your booking information on this site. You may log into your account at www.paypal.com to view details of this transaction."
+msgstr ""
+
+#: emp-install.php:339
+#: emp-install.php:341
+msgid "Pay Offline"
+msgstr ""
+
+#: emp-install.php:343
+msgid "Credit Card"
+msgstr ""
+
+#: emp-install.php:345
+msgid "Booking successful. You have not been charged for this booking."
+msgstr ""
+
+#: emp-install.php:375
+msgid "Reminder"
+msgstr ""
+
+#: emp-install.php:377
+msgid "Dear #_BOOKINGNAME, <br />This is a reminder about your #_BOOKINGSPACES space/spaces reserved for #_EVENTNAME.<br />When : #_EVENTDATES @ #_EVENTTIMES<br />Where : #_LOCATIONNAME - #_LOCATIONFULLLINE<br />We look forward to seeing you there!<br />Yours faithfully,<br />#_CONTACTNAME"
+msgstr ""
+
+#: emp-install.php:394
+msgid "Your booking was added to your shopping cart."
+msgstr ""
+
+#: emp-install.php:395
+msgid "You have already booked a spot at this event in your cart, please modify or delete your current booking."
+msgstr ""
+
+#: emp-install.php:396
+msgid "You have not booked any events yet. Your cart is empty."
+msgstr ""
+
+#: emp-install.php:397
+msgid "Loading Cart Contents..."
+msgstr ""
+
+#: emp-install.php:398
+msgid "Are you sure you want to empty your cart?"
+msgstr ""
+
+#: emp-install.php:419
+#: emp-install.php:435
+msgid "Booking Cancelled"
+msgstr ""
+
+#: emp-install.php:423
+msgid "Booking Confirmed"
+msgstr ""
+
+#: emp-install.php:424
+msgid "Dear #_BOOKINGNAME, <br />Your booking has been confirmed. <br />Below is a summary of your booking: <br />#_BOOKINGSUMMARY <br />We look forward to seeing you there!"
+msgstr ""
+
+#: emp-install.php:427
+msgid "Booking Pending"
+msgstr ""
+
+#: emp-install.php:428
+msgid "Dear #_BOOKINGNAME, <br />Your booking is currently pending approval by our administrators. Once approved you will receive another confirmation email. <br />Below is a summary of your booking: <br />#_BOOKINGSUMMARY"
+msgstr ""
+
+#: emp-install.php:431
+msgid "Booking Rejected"
+msgstr ""
+
+#: emp-install.php:432
+msgid "Dear #_BOOKINGNAME, <br />Your requested booking has been rejected. <br />Below is a summary of your booking: <br />#_BOOKINGSUMMARY"
+msgstr ""
+
+#: emp-install.php:436
+msgid "Dear #_BOOKINGNAME, <br />Your requested booking has been cancelled. <br />Below is a summary of your booking: <br />#_BOOKINGSUMMARY"
+msgstr ""
+
+#: emp-install.php:678
+msgid "Welcome to Events Manager Pro 3! This is a major update which adds lots of new features including PDF Invoices & Tickets, Check-In functionality, QR support and integration with Events Manager 6.1 new storage methods of ticket and booking meta. Most of these features need to be enabled, so head on over to the Bookings tab in our %s!"
+msgstr ""
+
+#: emp-install.php:691
+msgid "Welcome to Events Manager Pro 3.2! This is a major update which includes a complete overhaul of our Gateway API foundation! Please visit the %s settings page for more information!"
+msgstr ""
+
+#: events-manager-pro.php:52
+msgid "Please make sure you have the <a href=\"http://wordpress.org/extend/plugins/events-manager/\">latest version</a> of Events Manager installed, as this may prevent Pro from functioning properly."
+msgstr ""
+
+#: events-manager-pro.php:214
+msgid "Please make sure you install Events Manager as well. You can search and install this plugin from your plugin installer or download it <a href=\"http://wordpress.org/extend/plugins/events-manager/\">here</a>."
+msgstr ""
+
+#: events-manager-pro.php:214
+#: events-manager-pro.php:221
+msgid "Only admins see this message."
+msgstr ""
+
+#: events-manager-pro.php:221
+msgid "Please make sure you have AT LEAST version %s of Events Manager installed, as this may prevent Pro from functioning properly."
+msgstr ""
+
+#: events-manager-pro.php:222
+msgid "Until it is updated, Events Manager Pro will remain inactive to prevent further errors."
+msgstr ""
+
+#: includes/em-license.php:62
+msgid "Your %s license has now been activated on this site and plugin features are now enabled."
+msgstr ""
+
+#: templates/bookings-manager/part-booking.php:56
+msgid "Go To Dashboard"
+msgstr ""
+
+#: templates/bookings-manager/part-booking.php:119
+msgid "View Ticket Details"
+msgstr ""
+
+#: templates/bookings-manager/part-ticket.php:17
+msgid "Auto Check-In"
+msgstr ""
+
+#: templates/bookings-manager/part-ticket.php:46
+msgid "Already checked in on %s"
+msgstr ""
+
+#: templates/bookings-manager/part-ticket.php:64
+msgid "Not Checked In"
+msgstr ""
+
+#: templates/bookings-manager/part-ticket.php:163
+msgid "Attendance History"
+msgstr ""
+
+#: templates/bookings-manager/template.php:10
+msgid "Event Tickets"
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:1
+#: templates/formats/waitlists_emails_cancelled_message.php:1
+#: templates/formats/waitlists_emails_confirmed_message.php:1
+#: templates/formats/waitlists_emails_expired_message.php:1
+msgid "Hello #_BOOKINGNAME"
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:4
+msgid "Great news! You are now able to book up to #_BOOKINGSPACES spaces for #_EVENTNAME on #_EVENTDATES at #_EVENTTIMES."
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:7
+#: templates/formats/waitlists_emails_confirmed_message.php:18
+#: templates/formats/waitlists_text_already_waiting.php:23
+#: templates/formats/waitlists_text_booking_form.php:21
+msgid "If you do not want to attend this event anymore, please cancel your reservation so others can have an opportunity to attend this event."
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:10
+msgid "Please follow the following link to complete or cancel your booking:"
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:16
+msgid "Please remember that you have #_WAITLIST_EXPIRY hours to complete this booking, otherwise your reservation will be cancelled and these spaces will be made available to the next person in line."
+msgstr ""
+
+#: templates/formats/waitlists_emails_approved_message.php:19
+#: templates/formats/waitlists_emails_cancelled_message.php:7
+#: templates/formats/waitlists_emails_confirmed_message.php:23
+#: templates/formats/waitlists_emails_expired_message.php:10
+msgid "Best Regards,"
+msgstr ""
+
+#: templates/formats/waitlists_emails_cancelled_message.php:4
+msgid "Your waitlist reservation of #_BOOKINGSPACES spaces for #_EVENTNAME on #_EVENTDATES at #_EVENTTIMES has been cancelled."
+msgstr ""
+
+#: templates/formats/waitlists_emails_confirmed_message.php:4
+msgid "You have successfully reserved #_BOOKINGSPACES spaces for #_EVENTNAME on #_EVENTDATES at #_EVENTTIMES."
+msgstr ""
+
+#: templates/formats/waitlists_emails_confirmed_message.php:7
+#: templates/formats/waitlists_text_already_waiting.php:10
+msgid "You are number #_WAITLIST_BOOKING_POSITION in line."
+msgstr ""
+
+#: templates/formats/waitlists_emails_confirmed_message.php:10
+#: templates/formats/waitlists_text_form.php:19
+msgid "Please remember that you have #_WAITLIST_EXPIRY hours to book reserved spaces once they become available, you will be notified immediately when an elegible ticket becomes available."
+msgstr ""
+
+#: templates/formats/waitlists_emails_confirmed_message.php:14
+msgid "You will be notified immediately when an elegible ticket becomes available"
+msgstr ""
+
+#: templates/formats/waitlists_emails_confirmed_message.php:18
+msgid "You can view all the information about your reservation and cancel by following this link:"
+msgstr ""
+
+#: templates/formats/waitlists_emails_expired_message.php:4
+msgid "Your wait-listed reservation for #_EVENTNAME has expired. You will need to re-apply for the waiting lists if you wish to book again."
+msgstr ""
+
+#: templates/formats/waitlists_emails_expired_message.php:7
+msgid "Please remember that you have #_WAITLIST_EXPIRY hours to book reserved spaces once they become available, you will be notified when that happens."
+msgstr ""
+
+#: templates/formats/waitlists_text_already_waiting.php:2
+msgid "#_EVENTNAME is fully booked. You have already joined the waiting list for this event."
+msgstr ""
+
+#: templates/formats/waitlists_text_already_waiting.php:6
+msgid "You will be notified when a space becomes available for you to book."
+msgstr ""
+
+#: templates/formats/waitlists_text_already_waiting.php:14
+#: templates/formats/waitlists_text_booking_form.php:6
+#: templates/formats/waitlists_text_cancelled.php:10
+#: templates/formats/waitlists_text_expired.php:6
+msgid "Waitlist Reservation Details:"
+msgstr ""
+
+#: templates/formats/waitlists_text_already_waiting.php:20
+#: templates/formats/waitlists_text_booking_form.php:12
+#: templates/formats/waitlists_text_cancelled.php:16
+#: templates/formats/waitlists_text_expired.php:12
+msgid "Reserved Spaces"
+msgstr ""
+
+#: templates/formats/waitlists_text_booking_form.php:2
+msgid "You are currently on a waiting list and are now elegible to book the following event:"
+msgstr ""
+
+#: templates/formats/waitlists_text_booking_form.php:16
+msgctxt "A specified amount of time like x hours, y minutes."
+msgid "Your requested spaces will be reserved for %s."
+msgstr ""
+
+#: templates/formats/waitlists_text_booking_form.php:22
+msgid "You can also cancel your booking by clicking the button below."
+msgstr ""
+
+#: templates/formats/waitlists_text_expired.php:2
+msgid "Your wait-listed reservation for #_EVENTNAME expired #_WAITLIST_BOOKING_EXPIRED ago. You will need to re-apply for the waiting lists if you wish to book again."
+msgstr ""
+
+#: templates/formats/waitlists_text_form.php:2
+#: templates/formats/waitlists_text_full.php:2
+msgid "This event is fully booked. You can join a waitlist and if an elegible ticket becomes available, you will be notified by email to make a booking."
+msgstr ""
+
+#: templates/formats/waitlists_text_form.php:7
+msgid "There are %s spaces left on the waitlist."
+msgstr ""
+
+#: templates/formats/waitlists_text_form.php:13
+msgid "You can book up to %s spaces on this waitlist."
+msgstr ""
+
+#: templates/multiple-bookings/admin-cart-table.php:30
+msgid "edit booking"
+msgstr ""
+
+#: templates/multiple-bookings/admin-cart-table.php:34
+#: templates/multiple-bookings/admin-cart-table.php:37
+#: templates/multiple-bookings/cart-table.php:47
+#: templates/multiple-bookings/cart-table.php:50
+msgid "details"
+msgstr ""
+
+#: templates/multiple-bookings/admin-cart-table.php:48
+#: templates/multiple-bookings/cart-table.php:59
+msgid "Booking Information"
+msgstr ""
+
+#: templates/multiple-bookings/admin-cart-table.php:100
+#: templates/multiple-bookings/cart-table.php:110
+msgid "Sub Total"
+msgstr ""
+
+#: templates/multiple-bookings/admin-cart-table.php:121
+#: templates/multiple-bookings/cart-table.php:131
+msgid "Taxes"
+msgstr ""
+
+#: templates/multiple-bookings/admin.php:103
+msgid "<strong>Warning:</strong> Status changes made here will be applied to all the bookings below."
+msgstr ""
+
+#: templates/multiple-bookings/admin.php:113
+msgid "You are editing the information supplied on the checkout form. To edit information about a specific booking, including the data entered in that booking form, click the edit link on your bookings above."
+msgstr ""
+
+#: templates/multiple-bookings/admin.php:118
+msgid "Modify Booking Information"
+msgstr ""
+
+#: templates/multiple-bookings/cart-table.php:39
+msgid "edit"
+msgstr ""
+
+#: templates/multiple-bookings/page-cart.php:23
+msgid "Empty Cart"
+msgstr ""
+
+#: templates/multiple-bookings/page-cart.php:24
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: templates/multiple-bookings/widget.php:22
+msgid "Total"
+msgstr ""
+
+#: templates/multiple-bookings/widget.php:22
+msgid "%d Spaces"
+msgstr ""
+
+#: templates/placeholders/bookingsummary-multiple.php:36
+msgid "Overall Spaces"
+msgstr ""
+
+#: templates/printables/pdf-invoice/part-header.php:13
+msgid "Invoice"
+msgstr ""
+
+#: templates/rsvp/404.php:10
+msgid "Booking Not Found"
+msgstr ""
+
+#: templates/rsvp/404.php:11
+msgid "Back to Website"
+msgstr ""
+
+#: templates/rsvp/part-booking.php:33
+msgid "Booking Details"
+msgstr ""
+
+#: templates/rsvp/template.php:10
+msgid "Booking RSVP"
+msgstr ""
+
+#: templates/rsvp/template.php:55
+msgid "Please RSVP your booking."
+msgstr ""
+
+#: templates/rsvp/template.php:89
+msgid "View Booking"
+msgstr ""
+
+#: templates/rsvp/template.php:90
+msgid "Reload Booking"
+msgstr ""
+
+#: templates/waitlists/button-cancel.php:23
+msgid "Cancelling"
+msgstr ""
+
+#: templates/waitlists/button-cancel.php:24
+msgid "Cancel Reservation"
+msgstr ""
+
+#: templates/waitlists/button.php:13
+msgid "Joining"
+msgstr ""
+
+#: templates/waitlists/form.php:24
+msgid "Enter your full name"
+msgstr ""
+
+#: templates/waitlists/not-found.php:5
+msgid "Booking could not be found."
+msgstr ""

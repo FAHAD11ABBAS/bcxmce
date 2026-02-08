@@ -1,0 +1,122 @@
+/** Tickets **/
+table.ticket {
+	margin-top: 50px;
+	border: 1px solid #dedede;
+
+	tr td {
+		text-align: left;
+		padding: 0;
+
+		p {
+			margin: 0 0 5px;
+		}
+	}
+
+	.event-image {
+		width: 250px;
+		overflow:hidden;
+		line-height: 0;
+		padding:0;
+		margin:0;
+	}
+
+	.ticket-info {
+		padding: 10px 15px;
+		text-align: center;
+
+		.dates-header {
+			border-top: 1px solid #555;
+			border-bottom: 1px solid #555;
+			padding: 5px 0;
+			margin-bottom: 10px;
+			width: 100%;
+			font-size: 14px;
+			font-weight: 400;
+
+			td {
+				padding: 0;
+
+				&.weekday {
+					text-align: left;
+					padding-left: 5px;
+					width: 20%;
+				}
+
+				&.date {
+					text-align: center;
+					font-size: 18px;
+					font-weight: bold;
+					color: #d83565;
+				}
+
+				&.year {
+					text-align: right;
+					padding-right: 5px;
+					width: 20%;
+				}
+			}
+		}
+
+		.event-name {
+			color: #4a437e;
+			font-weight: 400;
+			font-size: 18px;
+		}
+		.location {
+			td {
+				padding: 0;
+			}
+			.location-address {
+				font-size: 12px;
+				text-align: right;
+			}
+		}
+		.location-separator {
+			margin: 5px 0;
+
+			td {
+				padding: 0;
+			}
+			hr {
+				color: #999;
+				width:100%;
+			}
+			.at {
+				padding: 0 10px;
+				width:30px;
+				font-size: 18px;
+				font-weight: 100;
+				line-height: 18px;
+				text-align: center;
+			}
+		}
+	}
+
+	.qr {
+		border-left: 3px dotted #ddd;
+		text-align: center;
+		padding: 10px;
+
+		.ticket-name {
+			border-top: 1px solid #555;
+			border-bottom: 1px solid #555;
+			padding: 5px 0;
+			margin-bottom: 10px;
+			width: 100%;
+			font-size: 14px;
+			font-weight: 400;
+		}
+
+		.mini-info {
+			font-size: 11px;
+			line-height: 11px;
+			margin-bottom: 15px;
+		}
+	}
+}
+.ticket-cutter {
+	width:100%;
+	height:1px;
+	margin: 50px 0;
+	border-bottom: 2px dashed #dedede;
+}
