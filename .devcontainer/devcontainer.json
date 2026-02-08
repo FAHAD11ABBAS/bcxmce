@@ -1,0 +1,24 @@
+{
+    "name": "WordPress",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "wordpress",
+    "workspaceFolder": "/var/www/html",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8000
+    ],
+    "portsAttributes": {
+        "8000": {
+            "label": "WordPress Site",
+            "onAutoForward": "openBrowser"
+        }
+    },
+    "postCreateCommand": "echo 'WordPress environment ready!'"
+}
